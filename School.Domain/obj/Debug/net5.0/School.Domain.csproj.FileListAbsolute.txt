@@ -1,0 +1,12 @@
+C:\Users\kab-35-17\Desktop\School\School.Domain\bin\Debug\net5.0\School.Domain.deps.json
+C:\Users\kab-35-17\Desktop\School\School.Domain\bin\Debug\net5.0\School.Domain.dll
+C:\Users\kab-35-17\Desktop\School\School.Domain\bin\Debug\net5.0\ref\School.Domain.dll
+C:\Users\kab-35-17\Desktop\School\School.Domain\bin\Debug\net5.0\School.Domain.pdb
+C:\Users\kab-35-17\Desktop\School\School.Domain\obj\Debug\net5.0\School.Domain.csproj.AssemblyReference.cache
+C:\Users\kab-35-17\Desktop\School\School.Domain\obj\Debug\net5.0\School.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kab-35-17\Desktop\School\School.Domain\obj\Debug\net5.0\School.Domain.AssemblyInfoInputs.cache
+C:\Users\kab-35-17\Desktop\School\School.Domain\obj\Debug\net5.0\School.Domain.AssemblyInfo.cs
+C:\Users\kab-35-17\Desktop\School\School.Domain\obj\Debug\net5.0\School.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kab-35-17\Desktop\School\School.Domain\obj\Debug\net5.0\School.Domain.dll
+C:\Users\kab-35-17\Desktop\School\School.Domain\obj\Debug\net5.0\ref\School.Domain.dll
+C:\Users\kab-35-17\Desktop\School\School.Domain\obj\Debug\net5.0\School.Domain.pdb

@@ -1,0 +1,23 @@
+﻿@media (max-width: 992px) {
+    .button-header{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .img-header{
+        width: 430px;
+        height: 200px;
+        margin-top: 40px;
+    }
+
+    #header-top{
+        padding: 7px 15px;
+    }
+
+    #header-bottom{
+        padding: 0px;
+    }
+}
