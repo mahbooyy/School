@@ -1,0 +1,12 @@
+D:\tizul\School\School.DAL\bin\Debug\net5.0\School.DAL.deps.json
+D:\tizul\School\School.DAL\bin\Debug\net5.0\School.DAL.dll
+D:\tizul\School\School.DAL\bin\Debug\net5.0\ref\School.DAL.dll
+D:\tizul\School\School.DAL\bin\Debug\net5.0\School.DAL.pdb
+D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.csproj.AssemblyReference.cache
+D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.AssemblyInfoInputs.cache
+D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.AssemblyInfo.cs
+D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.csproj.CoreCompileInputs.cache
+D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.dll
+D:\tizul\School\School.DAL\obj\Debug\net5.0\ref\School.DAL.dll
+D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.pdb

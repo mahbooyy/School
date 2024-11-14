@@ -86,3 +86,10 @@ D:\Tizul\School\School\obj\Debug\net5.0\School.dll
 D:\Tizul\School\School\obj\Debug\net5.0\ref\School.dll
 D:\Tizul\School\School\obj\Debug\net5.0\School.pdb
 D:\Tizul\School\School\obj\Debug\net5.0\School.genruntimeconfig.cache
+D:\tizul\School\School\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\tizul\School\School\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\tizul\School\School\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\tizul\School\School\bin\Debug\net5.0\Npgsql.dll
+D:\tizul\School\School\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\tizul\School\School\bin\Debug\net5.0\School.DAL.dll
+D:\tizul\School\School\bin\Debug\net5.0\School.DAL.pdb
