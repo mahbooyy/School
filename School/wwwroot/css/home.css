@@ -9,16 +9,16 @@
     transition: transform 0.3s ease;
 }
 
-.card{
+.card {
     min-width: calc(33.33% - 20px);
     margin: 10px;
-    background-color: rgba(255,165,3,1);
+    background-color: #949494;
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    background-size:cover;
-    background-position:center;
+    background-size: cover;
+    background-position: center;
 }
 
 .card img{
@@ -75,10 +75,12 @@
     padding: 0 30px;
 }
 
-.row-item{
+.row-item {
     width: 30%;
-    background: #fff;
+    background: #949494;
     margin: 25px 0px;
+    color: white;
+    
 }
 
 .row-item h2{
@@ -96,11 +98,11 @@
     transition: all 250ms ease;
 }
 
-.item-img:hover{
-    background: rgba(255,165,3,1);
-    margin: 5px;
-    width: 100px;
-}
+    .item-img:hover {
+        background: #949494;
+        margin: 5px;
+        width: 100px;
+    }
 
 .block-message{
     display: grid;
@@ -124,17 +126,17 @@
     justify-content: center;
 }
 
-.message-button .button{
-    border: none;
-    background-color: rgba(255, 165, 3, 1);
-    padding: 15px 30px;
-    border-radius: 3px;
-    color: #370b0b;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 600;
-    transition: all 250ms ease;
-}
+    .message-button .button {
+        border: none;
+        background-color: #808080;
+        padding: 15px 30px;
+        border-radius: 3px;
+        color: #370b0b;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 600;
+        transition: all 250ms ease;
+    }
 
 .message-button .button:hover{
     color: #fff;

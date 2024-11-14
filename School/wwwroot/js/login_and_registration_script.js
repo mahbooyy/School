@@ -1,6 +1,6 @@
 ﻿document.addEventListener('DOMContentLoaded', function () {
     // Функция для открытия/закрытия формы
-    function hiddenOpen_Closelick() {
+    function hiddenOpen_Closeclick() {
         let x = document.querySelector(".container-login-registration");
         if (x.style.display == "none") {
             x.style.display = "grid";
@@ -10,8 +10,9 @@
     }
 
     // Обработчики для скрытия/открытия формы
-    document.getElementById("click-to-hide")?.addEventListener("click", hiddenOpen_Closelick);
-    document.querySelector(".overlay")?.addEventListener("click", hiddenOpen_Closelick);
+    document.getElementById("click-to-hide")?.addEventListener("click", hiddenOpen_Closeclick);
+    document.querySelector(".overlay")?.addEventListener("click", hiddenOpen_Closeclick);
+    document.getElementById("side-menu-button-click-to-hide").addEventListener("click", hiddenOpen_Closeclick);
 
     // Переключение между формами входа и регистрации
     const signInBtn = document.querySelector('.signin-btn');

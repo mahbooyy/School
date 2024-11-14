@@ -9,25 +9,38 @@
     <link rel="stylesheet" href="~/css/shared.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/login_and_registration.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/media_style.css" asp-append-version="true" />
 </head>
 <body>
     <div id="header-top">
+        <div id="hamburger" class="icon">&#9776;</div>
         <div class="logo">Карандаш</div>
         <div class=" button-header">
             <button class="button" id="click-to-hide">Войти</button>
         </div>
     </div>
-    <img class=" img-header" src="/css/Images/main.jpg" />
+    <div id="side-menu" class="side-menu">
+        <div>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#services">Услуги</a></li>
+            </ul>
+        </div>
+            <button class="button" id="side-menu-button-click-to-hide" type="button" name="button">Войти</button>
+    </div>
+    <img class=" img-header" src="/css/Images/2148200024 (2).jpg" />
     <div id="header-bottom">
         <div class="menu">
             <ul>
                 <li><a href="#home">Главная</a></li>
                 <li><a href="#contact">Контакты</a></li>
-                <li><a href="#countries">Страны</a></li>
                 <li><a href="#services">Услуги</a></li>
             </ul>
         </div>
     </div>
+
+
 @await Html.PartialAsync("_LoginRegistrationPartial")
 <div class="container">
 
@@ -40,8 +53,8 @@
         <p>
             В нашем магазине вы найдете все начиная от скрепки до школьного портфеля.
         </p>
-        <div class="footer-TravelAgency">
-            &copy; 2024 — TravelAgency - Tizul
+        <div class="footer-Karandash">
+            &copy; 2024 — Карандаш - Tizul
         </div>
     </div>
     <div class="footer-right">
@@ -49,7 +62,6 @@
             <ul>
                 <li><a href="#home">Главная</a></li>
                 <li><a href="#contact">Контакты</a></li>
-                <li><a href="#countries">Страны</a></li>
                 <li><a href="#services">Услуги</a></li>
             </ul>
         </div>
@@ -58,5 +70,6 @@
 <script src="~/js/shared_script.js" asp-append-version="true"></script>
 <script src="~/js/home_script.js" asp-append-version="true"></script>
 <script src="~/js/login_and_registration_script.js" asp-append-version="true"></script>
+<script src="~/js/chared_script.js" asp-append-version="true"></script>
 </body>
 </html>
