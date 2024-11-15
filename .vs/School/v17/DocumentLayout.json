@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\tizul\\School\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|d:\\tizul\\school\\school.dal\\migrations\\20241115105759_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\migrations\\20241115105759_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|d:\\tizul\\school\\school.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\tizul\\school\\school\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\tizul\\school\\school.domain\\modelsdb\\ordersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\modelsdb\\ordersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\tizul\\school\\school.domain\\modelsdb\\pictureproductdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\modelsdb\\pictureproductdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\tizul\\school\\school.domain\\modelsdb\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\modelsdb\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\tizul\\school\\school.domain\\modelsdb\\requestdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\modelsdb\\requestdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\tizul\\school\\school.domain\\modelsdb\\productsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\modelsdb\\productsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\tizul\\school\\school.domain\\modelsdb\\categorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\modelsdb\\categorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\tizul\\school\\school\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|d:\\tizul\\school\\school.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\tizul\\school\\school.domain\\school.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\school.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\tizul\\school\\school.domain\\enum\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\enum\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\tizul\\school\\school.domain\\enum\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\enum\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\tizul\\school\\school.domain\\viewmodels\\loginandregistration\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\tizul\\school\\school\\school.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\school.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\tizul\\school\\school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20241115105759_test.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School.DAL\\Migrations\\20241115105759_test.cs",
+              "RelativeDocumentMoniker": "School.DAL\\Migrations\\20241115105759_test.cs",
+              "ToolTip": "D:\\tizul\\School\\School.DAL\\Migrations\\20241115105759_test.cs",
+              "RelativeToolTip": "School.DAL\\Migrations\\20241115105759_test.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAgwIIAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:58:00.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School.DAL\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "School.DAL\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\tizul\\School\\School.DAL\\ApplicationDbContext.cs",
+              "RelativeToolTip": "School.DAL\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwB4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T10:05:35.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryDb.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School.Domain\\ModelsDb\\CategoryDb.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ModelsDb\\CategoryDb.cs",
+              "ToolTip": "D:\\tizul\\School\\School.Domain\\ModelsDb\\CategoryDb.cs",
+              "RelativeToolTip": "School.Domain\\ModelsDb\\CategoryDb.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T09:11:05.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductsDb.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School.Domain\\ModelsDb\\ProductsDb.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ModelsDb\\ProductsDb.cs",
+              "ToolTip": "D:\\tizul\\School\\School.Domain\\ModelsDb\\ProductsDb.cs",
+              "RelativeToolTip": "School.Domain\\ModelsDb\\ProductsDb.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T09:51:52.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RequestDb.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School.Domain\\ModelsDb\\RequestDb.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ModelsDb\\RequestDb.cs",
+              "ToolTip": "D:\\tizul\\School\\School.Domain\\ModelsDb\\RequestDb.cs",
+              "RelativeToolTip": "School.Domain\\ModelsDb\\RequestDb.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T09:48:15.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersDb.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School.Domain\\ModelsDb\\OrdersDb.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ModelsDb\\OrdersDb.cs",
+              "ToolTip": "D:\\tizul\\School\\School.Domain\\ModelsDb\\OrdersDb.cs",
+              "RelativeToolTip": "School.Domain\\ModelsDb\\OrdersDb.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T09:23:10.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PictureProductDb.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School.Domain\\ModelsDb\\PictureProductDb.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ModelsDb\\PictureProductDb.cs",
+              "ToolTip": "D:\\tizul\\School\\School.Domain\\ModelsDb\\PictureProductDb.cs",
+              "RelativeToolTip": "School.Domain\\ModelsDb\\PictureProductDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T09:43:13.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDb.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School.Domain\\ModelsDb\\UserDb.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ModelsDb\\UserDb.cs",
+              "ToolTip": "D:\\tizul\\School\\School.Domain\\ModelsDb\\UserDb.cs",
+              "RelativeToolTip": "School.Domain\\ModelsDb\\UserDb.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:50:13.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "School.Domain",
+              "DocumentMoniker": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj",
+              "RelativeDocumentMoniker": "School.Domain\\School.Domain.csproj",
+              "ToolTip": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj",
+              "RelativeToolTip": "School.Domain\\School.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T10:00:38.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\tizul\\School\\School\\appsettings.json",
+              "RelativeDocumentMoniker": "School\\appsettings.json",
+              "ToolTip": "D:\\tizul\\School\\School\\appsettings.json",
+              "RelativeToolTip": "School\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T08:25:24.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School\\Startup.cs",
+              "RelativeDocumentMoniker": "School\\Startup.cs",
+              "ToolTip": "D:\\tizul\\School\\School\\Startup.cs",
+              "RelativeToolTip": "School\\Startup.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwB8AAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:18:13.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Status.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School.Domain\\Enum\\Status.cs",
+              "RelativeDocumentMoniker": "School.Domain\\Enum\\Status.cs",
+              "ToolTip": "D:\\tizul\\School\\School.Domain\\Enum\\Status.cs",
+              "RelativeToolTip": "School.Domain\\Enum\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T09:02:21.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School.Domain\\Enum\\Role.cs",
+              "RelativeDocumentMoniker": "School.Domain\\Enum\\Role.cs",
+              "ToolTip": "D:\\tizul\\School\\School.Domain\\Enum\\Role.cs",
+              "RelativeToolTip": "School.Domain\\Enum\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:59:25.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "ToolTip": "D:\\tizul\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "RelativeToolTip": "School.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T09:00:26.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School.DAL\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "School.DAL\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\tizul\\School\\School.DAL\\ApplicationDbContext.cs",
+              "RelativeToolTip": "School.DAL\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:09:00.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "School",
+              "DocumentMoniker": "D:\\tizul\\School\\School\\School.csproj",
+              "RelativeDocumentMoniker": "School\\School.csproj",
+              "ToolTip": "D:\\tizul\\School\\School\\School.csproj",
+              "RelativeToolTip": "School\\School.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T08:22:14.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\tizul\\School\\School\\Program.cs",
+              "RelativeDocumentMoniker": "School\\Program.cs",
+              "ToolTip": "D:\\tizul\\School\\School\\Program.cs",
+              "RelativeToolTip": "School\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:09:10.907Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -12,7 +12,6 @@ C:\Users\kab-35-17\Desktop\School\School.Domain\obj\Debug\net5.0\ref\School.Doma
 C:\Users\kab-35-17\Desktop\School\School.Domain\obj\Debug\net5.0\School.Domain.pdb
 D:\Tizul\School\School.Domain\bin\Debug\net5.0\School.Domain.deps.json
 D:\Tizul\School\School.Domain\bin\Debug\net5.0\School.Domain.dll
-D:\Tizul\School\School.Domain\bin\Debug\net5.0\ref\School.Domain.dll
 D:\Tizul\School\School.Domain\bin\Debug\net5.0\School.Domain.pdb
 D:\Tizul\School\School.Domain\obj\Debug\net5.0\School.Domain.csproj.AssemblyReference.cache
 D:\Tizul\School\School.Domain\obj\Debug\net5.0\School.Domain.GeneratedMSBuildEditorConfig.editorconfig
@@ -22,3 +21,5 @@ D:\Tizul\School\School.Domain\obj\Debug\net5.0\School.Domain.csproj.CoreCompileI
 D:\Tizul\School\School.Domain\obj\Debug\net5.0\School.Domain.dll
 D:\Tizul\School\School.Domain\obj\Debug\net5.0\ref\School.Domain.dll
 D:\Tizul\School\School.Domain\obj\Debug\net5.0\School.Domain.pdb
+D:\tizul\School\School.Domain\obj\Debug\net5.0\School.Domain.sourcelink.json
+D:\tizul\School\School.Domain\obj\Debug\net5.0\refint\School.Domain.dll

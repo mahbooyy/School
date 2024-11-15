@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IeTdMyFBtlJ4ADFJc98ch45SX2ERQvxK3qezL0n9/muxjvWmi9N2pGBTOhm4mbh/QjTKdJlSTTZjWNAl7vo+dg==",
+  "dgSpecHash": "6ZjBf6eTIZ4=",
   "success": true,
   "projectFilePath": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Kab-31-13\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512"
+  ],
   "logs": []
 }

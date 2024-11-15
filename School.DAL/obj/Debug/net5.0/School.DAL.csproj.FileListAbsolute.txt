@@ -1,6 +1,5 @@
 D:\tizul\School\School.DAL\bin\Debug\net5.0\School.DAL.deps.json
 D:\tizul\School\School.DAL\bin\Debug\net5.0\School.DAL.dll
-D:\tizul\School\School.DAL\bin\Debug\net5.0\ref\School.DAL.dll
 D:\tizul\School\School.DAL\bin\Debug\net5.0\School.DAL.pdb
 D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.csproj.AssemblyReference.cache
 D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,3 +9,11 @@ D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.csproj.CoreCompileInputs.
 D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.dll
 D:\tizul\School\School.DAL\obj\Debug\net5.0\ref\School.DAL.dll
 D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.pdb
+D:\tizul\School\School.DAL\bin\Debug\net5.0\School.DAL.runtimeconfig.json
+D:\tizul\School\School.DAL\bin\Debug\net5.0\School.DAL.runtimeconfig.dev.json
+D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.sourcelink.json
+D:\tizul\School\School.DAL\obj\Debug\net5.0\refint\School.DAL.dll
+D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.genruntimeconfig.cache
+D:\tizul\School\School.DAL\bin\Debug\net5.0\School.Domain.dll
+D:\tizul\School\School.DAL\bin\Debug\net5.0\School.Domain.pdb
+D:\tizul\School\School.DAL\obj\Debug\net5.0\School.DAL.csproj.Up2Date
