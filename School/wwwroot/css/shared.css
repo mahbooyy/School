@@ -100,18 +100,20 @@ body{
         .menu a:hover {
             color: #000;
         }
-.container{
+.container {
     width: 82%;
     border: 2px solid #cacaca;
     border-radius: 2px;
+    background-color: white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
-.container-section{
+.container-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
     margin: 40px;
+   
 }
 .info-sections {
     margin-bottom: 20px;
@@ -191,6 +193,9 @@ body, html {
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-image: url("../css/Images/mainback.jpg");
+    background-size: cover;
+    background-color: transparent;
 }
 
 .icon{
