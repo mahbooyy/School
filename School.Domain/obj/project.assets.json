@@ -37,19 +37,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kab-31-13\\.nuget\\packages\\": {}
+    "C:\\Users\\kab-35-17\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj",
+      "projectUniqueName": "D:\\Tizul\\School\\School.Domain\\School.Domain.csproj",
       "projectName": "School.Domain",
-      "projectPath": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj",
-      "packagesPath": "C:\\Users\\Kab-31-13\\.nuget\\packages\\",
-      "outputPath": "D:\\tizul\\School\\School.Domain\\obj\\",
+      "projectPath": "D:\\Tizul\\School\\School.Domain\\School.Domain.csproj",
+      "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
+      "outputPath": "D:\\Tizul\\School\\School.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Kab-31-13\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kab-35-17\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -57,7 +62,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -70,11 +74,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -92,8 +91,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -102,7 +100,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
       }
     }
   }

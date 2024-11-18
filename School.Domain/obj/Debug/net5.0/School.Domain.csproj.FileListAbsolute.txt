@@ -21,5 +21,4 @@ D:\Tizul\School\School.Domain\obj\Debug\net5.0\School.Domain.csproj.CoreCompileI
 D:\Tizul\School\School.Domain\obj\Debug\net5.0\School.Domain.dll
 D:\Tizul\School\School.Domain\obj\Debug\net5.0\ref\School.Domain.dll
 D:\Tizul\School\School.Domain\obj\Debug\net5.0\School.Domain.pdb
-D:\tizul\School\School.Domain\obj\Debug\net5.0\School.Domain.sourcelink.json
-D:\tizul\School\School.Domain\obj\Debug\net5.0\refint\School.Domain.dll
+D:\Tizul\School\School.Domain\bin\Debug\net5.0\ref\School.Domain.dll

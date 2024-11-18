@@ -33,7 +33,11 @@ namespace School.Domain.ModelsDb
 
         public DateTime CreatedAt { get; set; }
 
-        
+        public OrdersDb OderDb { get; set; }
+
+        public CategoryDb CategoryDb { get; set; }
+
+        public PictureProductDb PictureProduc { get; set; }
 
     }
 }

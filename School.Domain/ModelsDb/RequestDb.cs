@@ -33,6 +33,6 @@ namespace School.Domain.ModelsDb
 
         public DateTime CreatedAt { get; set; }
 
-       
+       public UserDb UserDb { get; set; }
     }
 }

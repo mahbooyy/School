@@ -35,5 +35,7 @@ namespace School.Domain.ModelsDb
 
         public ICollection<ProductsDb> Products { get; set; }
 
+        public UserDb UserDb { get; set; }
+
     }
 }
