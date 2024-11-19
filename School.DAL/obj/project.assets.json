@@ -902,11 +902,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Tizul\\School\\School.DAL\\School.DAL.csproj",
+      "projectUniqueName": "D:\\tizul\\School\\School.DAL\\School.DAL.csproj",
       "projectName": "School.DAL",
-      "projectPath": "D:\\Tizul\\School\\School.DAL\\School.DAL.csproj",
+      "projectPath": "D:\\tizul\\School\\School.DAL\\School.DAL.csproj",
       "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
-      "outputPath": "D:\\Tizul\\School\\School.DAL\\obj\\",
+      "outputPath": "D:\\tizul\\School\\School.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -927,8 +927,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Tizul\\School\\School.Domain\\School.Domain.csproj": {
-              "projectPath": "D:\\Tizul\\School\\School.Domain\\School.Domain.csproj"
+            "D:\\tizul\\School\\School.Domain\\School.Domain.csproj": {
+              "projectPath": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj"
             }
           }
         }

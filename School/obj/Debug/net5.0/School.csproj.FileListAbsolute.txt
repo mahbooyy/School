@@ -96,3 +96,7 @@ D:\tizul\School\School\bin\Debug\net5.0\StarkbankEcdsa.dll
 D:\Tizul\School\School\bin\Debug\net5.0\ref\School.dll
 D:\Tizul\School\School\obj\Debug\net5.0\staticwebassets\School.StaticWebAssets.xml
 D:\Tizul\School\School\obj\Debug\net5.0\School.csproj.CopyComplete
+D:\tizul\School\School\bin\Debug\net5.0\AutoMapper.dll
+D:\tizul\School\School\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\tizul\School\School\bin\Debug\net5.0\School.Service.dll
+D:\tizul\School\School\bin\Debug\net5.0\School.Service.pdb

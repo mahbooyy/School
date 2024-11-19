@@ -11,7 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{69454E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{277FBB34-C003-47E4-AB8F-6854E5F47D90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.DAL", "School.DAL\School.DAL.csproj", "{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.DAL", "School.DAL\School.DAL.csproj", "{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{32977468-33BC-4750-92A2-5E06F39BB664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Service", "School.Service\School.Service.csproj", "{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,10 @@ Global
 		{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B21C08E3-0BFE-4F2F-AF3C-649D83955251} = {69454EC5-4350-48F7-9D0B-4763321C54B3}
 		{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9} = {277FBB34-C003-47E4-AB8F-6854E5F47D90}
+		{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4} = {32977468-33BC-4750-92A2-5E06F39BB664}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C7786FF-0361-4C21-8888-ADE0947B9EC7}

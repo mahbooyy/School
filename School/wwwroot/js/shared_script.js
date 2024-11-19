@@ -6,6 +6,6 @@
         var maxScroll = 250;
 
         var opacity = Math.min(scrollTop / maxScroll, 1);
-        header.style.backgroundColor = `#949494{opacity}`;
+        header.style.backgroundColor = `rgba(255, 255, 255, ${opacity})`;
     });
 });

@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
 
+
 namespace School
 {
     public class Startup
@@ -30,6 +31,9 @@ namespace School
             services.AddRazorPages();
             services.AddControllersWithViews();
             services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            services.InitializeRepositories();
+            services.InitializeServies();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
