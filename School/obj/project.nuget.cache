@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZtZpUOtE0//wtNKriFVIfFpItprk8B4voLyupeyejh92IwPoGRIYQUvmmp15d+5sEGJoYuWkwcad848d94h7iw==",
+  "dgSpecHash": "tU/gAz4fyezhWmrMQc6wqdljZ39mJR7gtyY9zJ7dT1fLavAYQ0BSG3CyTes9ewmHy7tiozUAVpeDUbsY+8BqrQ==",
   "success": true,
-  "projectFilePath": "D:\\Tizul\\School\\School\\School.csproj",
+  "projectFilePath": "D:\\tizul\\School\\School\\School.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kab-35-17\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
     "C:\\Users\\kab-35-17\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\5.0.1\\automapper.extensions.microsoft.dependencyinjection.5.0.1.nupkg.sha512",

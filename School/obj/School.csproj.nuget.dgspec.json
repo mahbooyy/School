@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tizul\\School\\School\\School.csproj": {}
+    "D:\\tizul\\School\\School\\School.csproj": {}
   },
   "projects": {
-    "D:\\Tizul\\School\\School.DAL\\School.DAL.csproj": {
+    "D:\\tizul\\School\\School.DAL\\School.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tizul\\School\\School.DAL\\School.DAL.csproj",
+        "projectUniqueName": "D:\\tizul\\School\\School.DAL\\School.DAL.csproj",
         "projectName": "School.DAL",
-        "projectPath": "D:\\Tizul\\School\\School.DAL\\School.DAL.csproj",
+        "projectPath": "D:\\tizul\\School\\School.DAL\\School.DAL.csproj",
         "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
-        "outputPath": "D:\\Tizul\\School\\School.DAL\\obj\\",
+        "outputPath": "D:\\tizul\\School\\School.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Tizul\\School\\School.Domain\\School.Domain.csproj": {
-                "projectPath": "D:\\Tizul\\School\\School.Domain\\School.Domain.csproj"
+              "D:\\tizul\\School\\School.Domain\\School.Domain.csproj": {
+                "projectPath": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "D:\\Tizul\\School\\School.Domain\\School.Domain.csproj": {
+    "D:\\tizul\\School\\School.Domain\\School.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tizul\\School\\School.Domain\\School.Domain.csproj",
+        "projectUniqueName": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj",
         "projectName": "School.Domain",
-        "projectPath": "D:\\Tizul\\School\\School.Domain\\School.Domain.csproj",
+        "projectPath": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj",
         "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
-        "outputPath": "D:\\Tizul\\School\\School.Domain\\obj\\",
+        "outputPath": "D:\\tizul\\School\\School.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -142,14 +142,14 @@
         }
       }
     },
-    "D:\\Tizul\\School\\School.Service\\School.Service.csproj": {
+    "D:\\tizul\\School\\School.Service\\School.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tizul\\School\\School.Service\\School.Service.csproj",
+        "projectUniqueName": "D:\\tizul\\School\\School.Service\\School.Service.csproj",
         "projectName": "School.Service",
-        "projectPath": "D:\\Tizul\\School\\School.Service\\School.Service.csproj",
+        "projectPath": "D:\\tizul\\School\\School.Service\\School.Service.csproj",
         "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
-        "outputPath": "D:\\Tizul\\School\\School.Service\\obj\\",
+        "outputPath": "D:\\tizul\\School\\School.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -170,11 +170,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Tizul\\School\\School.DAL\\School.DAL.csproj": {
-                "projectPath": "D:\\Tizul\\School\\School.DAL\\School.DAL.csproj"
+              "D:\\tizul\\School\\School.DAL\\School.DAL.csproj": {
+                "projectPath": "D:\\tizul\\School\\School.DAL\\School.DAL.csproj"
               },
-              "D:\\Tizul\\School\\School.Domain\\School.Domain.csproj": {
-                "projectPath": "D:\\Tizul\\School\\School.Domain\\School.Domain.csproj"
+              "D:\\tizul\\School\\School.Domain\\School.Domain.csproj": {
+                "projectPath": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj"
               }
             }
           }
@@ -213,14 +213,14 @@
         }
       }
     },
-    "D:\\Tizul\\School\\School\\School.csproj": {
+    "D:\\tizul\\School\\School\\School.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tizul\\School\\School\\School.csproj",
+        "projectUniqueName": "D:\\tizul\\School\\School\\School.csproj",
         "projectName": "School",
-        "projectPath": "D:\\Tizul\\School\\School\\School.csproj",
+        "projectPath": "D:\\tizul\\School\\School\\School.csproj",
         "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
-        "outputPath": "D:\\Tizul\\School\\School\\obj\\",
+        "outputPath": "D:\\tizul\\School\\School\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -241,14 +241,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Tizul\\School\\School.DAL\\School.DAL.csproj": {
-                "projectPath": "D:\\Tizul\\School\\School.DAL\\School.DAL.csproj"
+              "D:\\tizul\\School\\School.DAL\\School.DAL.csproj": {
+                "projectPath": "D:\\tizul\\School\\School.DAL\\School.DAL.csproj"
               },
-              "D:\\Tizul\\School\\School.Domain\\School.Domain.csproj": {
-                "projectPath": "D:\\Tizul\\School\\School.Domain\\School.Domain.csproj"
+              "D:\\tizul\\School\\School.Domain\\School.Domain.csproj": {
+                "projectPath": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj"
               },
-              "D:\\Tizul\\School\\School.Service\\School.Service.csproj": {
-                "projectPath": "D:\\Tizul\\School\\School.Service\\School.Service.csproj"
+              "D:\\tizul\\School\\School.Service\\School.Service.csproj": {
+                "projectPath": "D:\\tizul\\School\\School.Service\\School.Service.csproj"
               }
             }
           }

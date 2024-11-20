@@ -108,9 +108,9 @@ namespace School.DAL.Migrations
                     product = table.Column<decimal>(type: "numeric", nullable: false),
                     pathImg = table.Column<int>(type: "integer", nullable: false),
                     createdAt = table.Column<DateTime>(type: "timestamp", nullable: false),
+                    OderDbId = table.Column<Guid>(type: "uuid", nullable: true),
                     CategoryDbId = table.Column<Guid>(type: "uuid", nullable: true),
-                    OrdersDbId = table.Column<Guid>(type: "uuid", nullable: true),
-                    PictureProductDbId = table.Column<Guid>(type: "uuid", nullable: true)
+                    PictureProducId = table.Column<Guid>(type: "uuid", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -122,14 +122,14 @@ namespace School.DAL.Migrations
                         principalColumn: "id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_products_orders_OrdersDbId",
-                        column: x => x.OrdersDbId,
+                        name: "FK_products_orders_OderDbId",
+                        column: x => x.OderDbId,
                         principalTable: "orders",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_products_picture_product_PictureProductDbId",
-                        column: x => x.PictureProductDbId,
+                        name: "FK_products_picture_product_PictureProducId",
+                        column: x => x.PictureProducId,
                         principalTable: "picture_product",
                         principalColumn: "id",
                         onDelete: ReferentialAction.Restrict);
@@ -146,14 +146,14 @@ namespace School.DAL.Migrations
                 column: "CategoryDbId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_products_OrdersDbId",
+                name: "IX_products_OderDbId",
                 table: "products",
-                column: "OrdersDbId");
+                column: "OderDbId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_products_PictureProductDbId",
+                name: "IX_products_PictureProducId",
                 table: "products",
-                column: "PictureProductDbId");
+                column: "PictureProducId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_request_UserDbId",

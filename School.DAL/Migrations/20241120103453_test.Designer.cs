@@ -10,7 +10,7 @@ using School.DAL;
 namespace School.DAL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241115105759_test")]
+    [Migration("20241120103453_test")]
     partial class test
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -127,14 +127,14 @@ namespace School.DAL.Migrations
                         .HasColumnType("text")
                         .HasColumnName("name");
 
-                    b.Property<Guid?>("OrdersDbId")
+                    b.Property<Guid?>("OderDbId")
                         .HasColumnType("uuid");
 
                     b.Property<int>("PathImage")
                         .HasColumnType("integer")
                         .HasColumnName("pathImg");
 
-                    b.Property<Guid?>("PictureProductDbId")
+                    b.Property<Guid?>("PictureProducId")
                         .HasColumnType("uuid");
 
                     b.Property<decimal>("Product")
@@ -145,9 +145,9 @@ namespace School.DAL.Migrations
 
                     b.HasIndex("CategoryDbId");
 
-                    b.HasIndex("OrdersDbId");
+                    b.HasIndex("OderDbId");
 
-                    b.HasIndex("PictureProductDbId");
+                    b.HasIndex("PictureProducId");
 
                     b.ToTable("products");
                 });
@@ -227,31 +227,41 @@ namespace School.DAL.Migrations
 
             modelBuilder.Entity("School.Domain.ModelsDb.OrdersDb", b =>
                 {
-                    b.HasOne("School.Domain.ModelsDb.UserDb", null)
+                    b.HasOne("School.Domain.ModelsDb.UserDb", "UserDb")
                         .WithMany("ordersDb")
                         .HasForeignKey("UserDbId");
+
+                    b.Navigation("UserDb");
                 });
 
             modelBuilder.Entity("School.Domain.ModelsDb.ProductsDb", b =>
                 {
-                    b.HasOne("School.Domain.ModelsDb.CategoryDb", null)
+                    b.HasOne("School.Domain.ModelsDb.CategoryDb", "CategoryDb")
                         .WithMany("Products")
                         .HasForeignKey("CategoryDbId");
 
-                    b.HasOne("School.Domain.ModelsDb.OrdersDb", null)
+                    b.HasOne("School.Domain.ModelsDb.OrdersDb", "OderDb")
                         .WithMany("Products")
-                        .HasForeignKey("OrdersDbId");
+                        .HasForeignKey("OderDbId");
 
-                    b.HasOne("School.Domain.ModelsDb.PictureProductDb", null)
+                    b.HasOne("School.Domain.ModelsDb.PictureProductDb", "PictureProduc")
                         .WithMany("Products")
-                        .HasForeignKey("PictureProductDbId");
+                        .HasForeignKey("PictureProducId");
+
+                    b.Navigation("CategoryDb");
+
+                    b.Navigation("OderDb");
+
+                    b.Navigation("PictureProduc");
                 });
 
             modelBuilder.Entity("School.Domain.ModelsDb.RequestDb", b =>
                 {
-                    b.HasOne("School.Domain.ModelsDb.UserDb", null)
+                    b.HasOne("School.Domain.ModelsDb.UserDb", "UserDb")
                         .WithMany("requestDbs")
                         .HasForeignKey("UserDbId");
+
+                    b.Navigation("UserDb");
                 });
 
             modelBuilder.Entity("School.Domain.ModelsDb.CategoryDb", b =>
