@@ -15,8 +15,18 @@
     <div id="header-top">
         <div id="hamburger" class="icon">&#9776;</div>
         <div class="logo">Карандаш</div>
-        <div class=" button-header">
-            <button class="button" id="click-to-hide">Войти</button>
+        <div class = "button-header">
+            @if(User.Identity.IsAuthenticated)
+            {
+                <button class="button" type="button" name="button" onlick="window.location.href = '@Url.Action("Logout","Home")'">Выйти</button>
+
+            }
+
+             @if(!User.Identity.IsAuthenticated)
+             {
+            <button class="button" name="button" id="click-to-hide">Войти</button>
+             }
+
         </div>
     </div>
     <div id="side-menu" class="side-menu">

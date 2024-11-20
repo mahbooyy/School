@@ -12,6 +12,9 @@ using School.Domain.Response;
 using AutoMapper;
 using School.Service.Interface;
 using School.Service;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
 
 namespace School.Controllers
 {
@@ -50,6 +53,8 @@ namespace School.Controllers
                 var response = await _accountService.Login(user);
                 if(response.StatusCode == Domain.Response.StatusCode.OK)
                 {
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                        new ClaimsPrincipal(response.Data));
                     return Ok(model);
                 }
                 ModelState.AddModelError("", response.Description);
@@ -80,6 +85,12 @@ namespace School.Controllers
                                            .Select(e => e.ErrorMessage)
                                            .ToList();
             return BadRequest(errors);
+        }
+        [AutoValidateAntiforgeryToken]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("SiteInformation", "Home");
         }
     }
 }

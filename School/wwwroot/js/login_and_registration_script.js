@@ -83,7 +83,7 @@
                 login: form.login.value,
                 email: form.email.value,
                 password: form.password.value,
-                passwordConfirm: form.passwordConfirm.value,
+                PasswordConfrim: form.passwordConfirm.value,
             }
 
             sendRequest('POST', requestURL, body)

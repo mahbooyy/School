@@ -8,89 +8,109 @@ using School.Domain.Response;
 using School.Service.Interface;
 using Microsoft.EntityFrameworkCore;
 using School.DAL.Interface;
+using System.Security.Claims;
+using School.Domain.Helpers;
 
 namespace School.Service
 {
     public class AccountService : IAccountService
     {
-        private readonly IBaseStorage<UserDb> _userStorage;
-
+        private readonly IBaseStorage<UserDb> _UserStorage;
         private IMapper _mapper { get; set; }
 
         MapperConfiguration mapperConfiguration = new MapperConfiguration(p =>
-       {
-           p.AddProfile<AppMappingProfile>();
-       });
+        {
+            p.AddProfile<AppMappingProfile>();
+        });
 
         public AccountService(IBaseStorage<UserDb> userStorage)
         {
-            _userStorage = userStorage;
+            _UserStorage = userStorage;
             _mapper = mapperConfiguration.CreateMapper();
         }
 
-        public async Task<BaseResponse<User>> Login(User model)
+        public async Task<BaseResponse<ClaimsIdentity>> Login(User model)
         {
             try
             {
-                var userdb = _mapper.Map<UserDb>(model);
+                var userdb = await _UserStorage.GetAll().FirstOrDefaultAsync(x => x.Email == model.Email);
 
-                if(await _userStorage.GetAll().FirstOrDefaultAsync(x => x.Email == model.Email) == null)
+                if (userdb == null)
                 {
-                    return new BaseResponse<User>()
+                    return new BaseResponse<ClaimsIdentity>()
                     {
                         Description = "Пользователь не найден"
                     };
                 }
-                if(userdb.Password != model.Password)
+
+                if (userdb.Password != HashPasswordHelper.HashPassword(model.Password))
                 {
-                    return new BaseResponse<User>()
+                    return new BaseResponse<ClaimsIdentity>()
                     {
                         Description = "Неверный пароль или почта"
                     };
                 }
-                return new BaseResponse<User>()
+
+                // ClaimsIdentity для аутентификации
+                var claimsIdentity = new ClaimsIdentity(new[]
                 {
-                    Data = model,
+                    new Claim(ClaimTypes.Name, model.Email),
+
+                }, "Password");
+
+                return new BaseResponse<ClaimsIdentity>()
+                {
+                    Data = claimsIdentity, // Передаем ClaimsIdentity
                     StatusCode = StatusCode.OK
                 };
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                return new BaseResponse<User>()
+                return new BaseResponse<ClaimsIdentity>()
                 {
                     Description = ex.Message,
                     StatusCode = StatusCode.InternalServerError
                 };
             }
         }
-        public async Task<BaseResponse<User>> Register(User model)
+
+        public async Task<BaseResponse<ClaimsIdentity>> Register(User model)
         {
             try
             {
-                model.PathImage = "/images/user.png";
+                model.PathImage = "";
                 model.CreatedAt = DateTime.Now;
+                model.Password = HashPasswordHelper.HashPassword(model.Password);
 
-                var userDb = _mapper.Map<UserDb>(model);
+                var userdb = _mapper.Map<UserDb>(model);
 
-                if (await _userStorage.GetAll().FirstOrDefaultAsync(x => x.Email == model.Email) != null)
+                if (await _UserStorage.GetAll().FirstOrDefaultAsync(x => x.Email == model.Email) != null)
                 {
-                    return new BaseResponse<User>()
+                    return new BaseResponse<ClaimsIdentity>()
                     {
-                        Description = "Пользователь с такой почтой уже есть"
+                        Description = "Пользователь с такой почтой уже есть",
                     };
                 }
-                await _userStorage.Add(userDb);
 
-                return new BaseResponse<User>()
+                await _UserStorage.Add(userdb);
+
+                // Создайте ClaimsIdentity после регистрации пользователя
+                var claimsIdentity = new ClaimsIdentity(new[]
                 {
-                    Data = model,
-                    Description = "Пользователь не зарегистрирован",
+                    new Claim(ClaimTypes.Name, model.Email),
+
+                }, "Password");
+
+                return new BaseResponse<ClaimsIdentity>()
+                {
+                    Data = claimsIdentity, // Передаем ClaimsIdentity
+                    Description = "Пользователь зарегистрирован",
                     StatusCode = StatusCode.OK
                 };
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                return new BaseResponse<User>()
+                return new BaseResponse<ClaimsIdentity>()
                 {
                     Description = ex.Message,
                     StatusCode = StatusCode.InternalServerError

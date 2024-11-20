@@ -10,8 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-
-
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace School
 {
@@ -33,6 +32,13 @@ namespace School
             services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             services.InitializeRepositories();
             services.InitializeServies();
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+            .AddCookie(options =>
+            {
+                options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Home/Login");
+                options.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Home/Login");
+            });
+            services.InitializeRepositories();
 
         }
 
@@ -52,9 +58,8 @@ namespace School
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
