@@ -10,6 +10,9 @@ using Microsoft.EntityFrameworkCore;
 using School.DAL.Interface;
 using System.Security.Claims;
 using School.Domain.Helpers;
+using FluentValidation;
+using School.Domain.Validators;
+using System.Linq;
 
 namespace School.Service
 {
@@ -17,6 +20,8 @@ namespace School.Service
     {
         private readonly IBaseStorage<UserDb> _UserStorage;
         private IMapper _mapper { get; set; }
+
+        private UserValidator _validationrules { get; set; }
 
         MapperConfiguration mapperConfiguration = new MapperConfiguration(p =>
         {
@@ -27,12 +32,14 @@ namespace School.Service
         {
             _UserStorage = userStorage;
             _mapper = mapperConfiguration.CreateMapper();
+            _validationrules = new UserValidator();
         }
 
         public async Task<BaseResponse<ClaimsIdentity>> Login(User model)
         {
             try
             {
+                await _validationrules.ValidateAndThrowAsync(model);
                 var userdb = await _UserStorage.GetAll().FirstOrDefaultAsync(x => x.Email == model.Email);
 
                 if (userdb == null)
@@ -64,6 +71,15 @@ namespace School.Service
                     StatusCode = StatusCode.OK
                 };
             }
+            catch(ValidationException ex)
+            {
+                var errorMessages = string.Join(";", ex.Errors.Select(e => e.ErrorMessage));
+                return new BaseResponse<ClaimsIdentity>()
+                {
+                    Description = errorMessages,
+                    StatusCode = StatusCode.BadRequest
+                };
+            }
             catch (Exception ex)
             {
                 return new BaseResponse<ClaimsIdentity>()
@@ -81,6 +97,8 @@ namespace School.Service
                 model.PathImage = "";
                 model.CreatedAt = DateTime.Now;
                 model.Password = HashPasswordHelper.HashPassword(model.Password);
+
+                await _validationrules.ValidateAndThrowAsync(model);
 
                 var userdb = _mapper.Map<UserDb>(model);
 
@@ -106,6 +124,15 @@ namespace School.Service
                     Data = claimsIdentity, // Передаем ClaimsIdentity
                     Description = "Пользователь зарегистрирован",
                     StatusCode = StatusCode.OK
+                };
+            }
+            catch (ValidationException ex)
+            {
+                var errorMessages = string.Join(";", ex.Errors.Select(e => e.ErrorMessage));
+                return new BaseResponse<ClaimsIdentity>()
+                {
+                    Description = errorMessages,
+                    StatusCode = StatusCode.BadRequest
                 };
             }
             catch (Exception ex)

@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/AHbdpHD0kjLXi+9fMMyjGuoAfETXW1Yme/HQ/IpkQhe0/d6XmGBy+fRq8ukAaVs4DL+Knml8YMZBUJmDbxg1w==",
+  "dgSpecHash": "ketK74r3c8XjUT2ZTx7Z9fY2jM4YfJq+aIUVAXKke+DyhCjXehmNizEdWl9Uad//WH9pkL+uH/P7wfsaYnfb5Q==",
   "success": true,
-  "projectFilePath": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj",
+  "projectFilePath": "D:\\tizul\\School\\School\\School.Domain\\School.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kab-35-17\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\kab-35-17\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\kab-35-17\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\kab-35-17\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\kab-35-17\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512"
   ],
   "logs": []

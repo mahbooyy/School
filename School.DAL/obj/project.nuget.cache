@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "V4jHcxiUYdXIdq/IR+6gkIWbbp5MoImQbkWSv3vH6yd0J8TtRxD61KLQZRYT3VRhh/kXkw9nIi30L/dg5PaVAg==",
+  "dgSpecHash": "UG/ZFKUqgvEWLrCoyhN2xnkYy/ej3FE25WR1JqODDU04NhWSPiPaM0XaHaMzcoSc8vM4FdQArXNLLbfhuxnt6g==",
   "success": true,
-  "projectFilePath": "D:\\tizul\\School\\School.DAL\\School.DAL.csproj",
+  "projectFilePath": "D:\\tizul\\School\\School\\School.DAL\\School.DAL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kab-35-17\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\kab-35-17\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\kab-35-17\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\kab-35-17\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kab-35-17\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\kab-35-17\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",

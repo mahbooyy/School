@@ -18,7 +18,7 @@
 }
 
 .block {
-    border-radius: 80%;
+    border-radius: 6%;
     height: 100%;
     background-color: #939393;
     box-shadow: 0 5px 45px rgb(220, 220, 220);

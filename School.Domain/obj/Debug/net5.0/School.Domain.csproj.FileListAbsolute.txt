@@ -22,3 +22,15 @@ D:\Tizul\School\School.Domain\obj\Debug\net5.0\School.Domain.dll
 D:\Tizul\School\School.Domain\obj\Debug\net5.0\ref\School.Domain.dll
 D:\Tizul\School\School.Domain\obj\Debug\net5.0\School.Domain.pdb
 D:\Tizul\School\School.Domain\bin\Debug\net5.0\ref\School.Domain.dll
+D:\tizul\School\School\School.Domain\bin\Debug\net5.0\School.Domain.deps.json
+D:\tizul\School\School\School.Domain\bin\Debug\net5.0\School.Domain.dll
+D:\tizul\School\School\School.Domain\bin\Debug\net5.0\ref\School.Domain.dll
+D:\tizul\School\School\School.Domain\bin\Debug\net5.0\School.Domain.pdb
+D:\tizul\School\School\School.Domain\obj\Debug\net5.0\School.Domain.csproj.AssemblyReference.cache
+D:\tizul\School\School\School.Domain\obj\Debug\net5.0\School.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\tizul\School\School\School.Domain\obj\Debug\net5.0\School.Domain.AssemblyInfoInputs.cache
+D:\tizul\School\School\School.Domain\obj\Debug\net5.0\School.Domain.AssemblyInfo.cs
+D:\tizul\School\School\School.Domain\obj\Debug\net5.0\School.Domain.csproj.CoreCompileInputs.cache
+D:\tizul\School\School\School.Domain\obj\Debug\net5.0\School.Domain.dll
+D:\tizul\School\School\School.Domain\obj\Debug\net5.0\ref\School.Domain.dll
+D:\tizul\School\School\School.Domain\obj\Debug\net5.0\School.Domain.pdb
