@@ -33,6 +33,10 @@ namespace School.Domain.ModelsDb
 
         public DateTime CreatedAt { get; set; }
 
+        [Column("price")]
+
+        public decimal Price { get; set; }
+
         public OrdersDb OderDb { get; set; }
 
         public CategoryDb CategoryDb { get; set; }

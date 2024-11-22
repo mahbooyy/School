@@ -33,7 +33,9 @@ namespace School.Domain.ModelsDb
 
         public DateTime CreatedAt { get; set; }
 
-        public ICollection<ProductsDb> Products { get; set; }
+        public ICollection<ProductsDb> ProductsDb { get; set; }
+
+        public ICollection<RequestDb> RequestsDb { get; set; }
 
         public UserDb UserDb { get; set; }
 

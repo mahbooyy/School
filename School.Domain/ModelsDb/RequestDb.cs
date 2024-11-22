@@ -33,6 +33,11 @@ namespace School.Domain.ModelsDb
 
         public DateTime CreatedAt { get; set; }
 
-       public UserDb UserDb { get; set; }
+        [Column("Id_order")]
+
+        public Guid Id_Order { get; set; }
+
+        public OrdersDb OrdersDb { get; set; }
+        public UserDb UserDb { get; set; }
     }
 }

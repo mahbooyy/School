@@ -26,8 +26,11 @@ namespace School.Domain.ModelsDb
 
         public DateTime CreatedAt { get; set; }
 
-        [Column("otziv")]
+        [Column("Id_product")]
 
+        public Guid Id_Product { get; set; }
+
+        [Column("otziv")]
         public string Otziv { get; set; }
 
         public ICollection<ProductsDb> Products { get; set; }
