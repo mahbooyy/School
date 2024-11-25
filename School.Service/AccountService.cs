@@ -13,6 +13,12 @@ using School.Domain.Helpers;
 using FluentValidation;
 using School.Domain.Validators;
 using System.Linq;
+using MimeKit;
+using System.IO;
+using System.Net.Mail;
+using MailKit.Net.Smtp;
+using School.DAL.Storage;
+
 
 namespace School.Service
 {
@@ -71,61 +77,6 @@ namespace School.Service
                     StatusCode = StatusCode.OK
                 };
             }
-            catch(ValidationException ex)
-            {
-                var errorMessages = string.Join(";", ex.Errors.Select(e => e.ErrorMessage));
-                return new BaseResponse<ClaimsIdentity>()
-                {
-                    Description = errorMessages,
-                    StatusCode = StatusCode.BadRequest
-                };
-            }
-            catch (Exception ex)
-            {
-                return new BaseResponse<ClaimsIdentity>()
-                {
-                    Description = ex.Message,
-                    StatusCode = StatusCode.InternalServerError
-                };
-            }
-        }
-
-        public async Task<BaseResponse<ClaimsIdentity>> Register(User model)
-        {
-            try
-            {
-                model.PathImage = "";
-                model.CreatedAt = DateTime.Now;
-                model.Password = HashPasswordHelper.HashPassword(model.Password);
-
-                await _validationrules.ValidateAndThrowAsync(model);
-
-                var userdb = _mapper.Map<UserDb>(model);
-
-                if (await _UserStorage.GetAll().FirstOrDefaultAsync(x => x.Email == model.Email) != null)
-                {
-                    return new BaseResponse<ClaimsIdentity>()
-                    {
-                        Description = "Пользователь с такой почтой уже есть",
-                    };
-                }
-
-                await _UserStorage.Add(userdb);
-
-                // Создайте ClaimsIdentity после регистрации пользователя
-                var claimsIdentity = new ClaimsIdentity(new[]
-                {
-                    new Claim(ClaimTypes.Name, model.Email),
-
-                }, "Password");
-
-                return new BaseResponse<ClaimsIdentity>()
-                {
-                    Data = claimsIdentity, // Передаем ClaimsIdentity
-                    Description = "Пользователь зарегистрирован",
-                    StatusCode = StatusCode.OK
-                };
-            }
             catch (ValidationException ex)
             {
                 var errorMessages = string.Join(";", ex.Errors.Select(e => e.ErrorMessage));
@@ -144,5 +95,186 @@ namespace School.Service
                 };
             }
         }
+
+        public async Task<BaseResponse<string>> Register(User model)
+        {
+            try
+            {
+                // Генерация кода подтверждения
+                Random random = new Random();
+                string confirmationCode = $"{random.Next(10)}{random.Next(10)}{random.Next(10)}{random.Next(10)}";
+
+                // Проверка наличия пользователя с таким email
+                if (await _UserStorage.GetAll().AnyAsync(x => x.Email == model.Email))
+                {
+                    return new BaseResponse<string>()
+                    {
+                        Description = "Пользователь с такой почтой уже есть",
+                        StatusCode = StatusCode.BadRequest
+                    };
+                }
+
+                // Отправка email с кодом подтверждения
+                await SendEmail(model.Email, confirmationCode);
+
+                // Успешный ответ
+                return new BaseResponse<string>()
+                {
+                    Data = confirmationCode,
+                    Description = "Письмо отправлено",
+                    StatusCode = StatusCode.OK
+                };
+            }
+            catch (ValidationException ex)
+            {
+                // Получение сообщений об ошибках валидации
+                var errorMessages = string.Join(";", ex.Errors.Select(e => e.ErrorMessage));
+                return new BaseResponse<string>()
+                {
+                    Description = errorMessages,
+                    StatusCode = StatusCode.BadRequest
+                };
+            }
+            catch (Exception ex)
+            {
+                // Обработка других исключений
+                return new BaseResponse<string>()
+                {
+                    Description = ex.Message,
+                    StatusCode = StatusCode.InternalServerError
+                };
+            }
+        }
+        public async Task SendEmail(string email, string confirmationCode)
+        {
+            // Путь к файлу с паролем
+            string path = @"D:\Sсhool\ddnt oppen.txt";
+
+            // Создание сообщения
+            var emailMessage = new MimeMessage();
+            emailMessage.From.Add(new MailboxAddress("Администрация сайта", "Karandash.com"));
+            emailMessage.To.Add(new MailboxAddress("", email));
+            emailMessage.Subject = "Добро пожаловать!";
+            emailMessage.Body = new TextPart("html")
+            {
+                Text = @"
+            <html>
+                <head>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            background-color: #f2f2f2;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .container {
+                            max-width: 600px;
+                            margin: 20px auto;
+                            padding: 20px;
+                            background-color: #fff;
+                            border-radius: 10px;
+                            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                        }
+                        .header {
+                            text-align: center;
+                            margin-bottom: 20px;
+                        }
+                        .message {
+                            font-size: 16px;
+                            line-height: 1.6;
+                        }
+                        .container-code {
+                            background-color: #f0f0fe;
+                            padding: 10px;
+                            border-radius: 5px;
+                            font-weight: bold;
+                            text-align: center;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class='container'>
+                        <div class='header'>
+                            <h1>Добро пожаловать на сайт КарандашMD!</h1>
+                        </div>
+                        <div class='message'>
+                            <p>Пожалуйста, введите данный код на сайте, чтобы подтвердить ваш email и завершить регистрацию:</p>
+                            <div class='container-code'>
+                                <p>" + confirmationCode + @"</p>
+                            </div>
+                        </div>
+                    </div>
+                </body>
+            </html>"
+            };
+
+            // Чтение пароля из файла
+            string password;
+            using (StreamReader reader = new StreamReader(path))
+            {
+                password = await reader.ReadToEndAsync();
+            }
+
+            // Отправка письма через SMTP
+            using (var client = new MailKit.Net.Smtp.SmtpClient())
+            {
+                try
+                {
+                    await client.ConnectAsync("smtp.gmail.com", 465, true);
+                    await client.AuthenticateAsync("toptopxlopxlop@gmail.com", password.Trim());
+                    await client.SendAsync(emailMessage);
+                }
+                finally
+                {
+                    await client.DisconnectAsync(true);
+                }
+            }
+        }
+        public async Task<BaseResponse<ClaimsIdentity>> ConfirmEmail(User model, string code, string confirmCode)
+        {
+            try
+            {
+                // Проверка на соответствие кода подтверждения
+                if (code != confirmCode)
+                {
+                    throw new Exception("Неверный код! Регистрация не выполнена.");
+                }
+
+                // Установка значений по умолчанию
+                model.PathImage = "/images/user.png";
+                model.CreatedAt = DateTime.Now;
+                model.Password = HashPasswordHelper.HashPassword(model.Password);
+
+                // Валидация модели
+                await _validationrules.ValidateAndThrowAsync(model);
+
+                // Преобразование модели пользователя в модель базы данных
+                var userdb = _mapper.Map<UserDb>(model);
+
+                // Сохранение пользователя в хранилище
+                await _UserStorage.Add(userdb);
+
+                // Аутентификация пользователя
+                var result = AuthenticateUserHelper.Authenticate(userdb);
+
+                // Возврат успешного ответа
+                return new BaseResponse<ClaimsIdentity>()
+                {
+                    Data = result,
+                    Description = "Объект добавился",
+                    StatusCode = StatusCode.OK
+                };
+            }
+            catch (Exception ex)
+            {
+                // Обработка исключения и возврат ошибки
+                return new BaseResponse<ClaimsIdentity>()
+                {
+                    Description = ex.Message,
+                    StatusCode = StatusCode.InternalServerError
+                };
+            }
+        }
+
     }
 }

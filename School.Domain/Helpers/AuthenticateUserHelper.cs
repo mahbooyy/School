@@ -5,6 +5,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using School.Domain.Models;
+using School.Domain.ModelsDb;
 
 namespace School.Domain.Helpers
 {
@@ -21,6 +22,11 @@ namespace School.Domain.Helpers
             };
             return new ClaimsIdentity(claims, "AplicationCookie",
                 ClaimTypes.Email, ClaimsIdentity.DefaultRoleClaimType);
+        }
+
+        public static ClaimsIdentity Authenticate(UserDb userdb)
+        {
+            throw new NotImplementedException();
         }
     }
 }

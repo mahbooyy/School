@@ -46,3 +46,16 @@ C:\Users\Kab-31-14\Desktop\School-main\School.Domain\obj\Debug\net5.0\School.Dom
 C:\Users\Kab-31-14\Desktop\School-main\School.Domain\obj\Debug\net5.0\refint\School.Domain.dll
 C:\Users\Kab-31-14\Desktop\School-main\School.Domain\obj\Debug\net5.0\School.Domain.pdb
 C:\Users\Kab-31-14\Desktop\School-main\School.Domain\obj\Debug\net5.0\ref\School.Domain.dll
+D:\School\School.Domain\bin\Debug\net5.0\School.Domain.deps.json
+D:\School\School.Domain\bin\Debug\net5.0\School.Domain.dll
+D:\School\School.Domain\bin\Debug\net5.0\School.Domain.pdb
+D:\School\School.Domain\obj\Debug\net5.0\School.Domain.csproj.AssemblyReference.cache
+D:\School\School.Domain\obj\Debug\net5.0\School.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\School.Domain\obj\Debug\net5.0\School.Domain.AssemblyInfoInputs.cache
+D:\School\School.Domain\obj\Debug\net5.0\School.Domain.AssemblyInfo.cs
+D:\School\School.Domain\obj\Debug\net5.0\School.Domain.csproj.CoreCompileInputs.cache
+D:\School\School.Domain\obj\Debug\net5.0\School.Domain.sourcelink.json
+D:\School\School.Domain\obj\Debug\net5.0\School.Domain.dll
+D:\School\School.Domain\obj\Debug\net5.0\refint\School.Domain.dll
+D:\School\School.Domain\obj\Debug\net5.0\School.Domain.pdb
+D:\School\School.Domain\obj\Debug\net5.0\ref\School.Domain.dll

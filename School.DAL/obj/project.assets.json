@@ -1082,19 +1082,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kab-31-14\\.nuget\\packages\\": {}
+    "C:\\Users\\mahboy\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kab-31-14\\Desktop\\School-main\\School.DAL\\School.DAL.csproj",
+      "projectUniqueName": "D:\\School\\School.DAL\\School.DAL.csproj",
       "projectName": "School.DAL",
-      "projectPath": "C:\\Users\\Kab-31-14\\Desktop\\School-main\\School.DAL\\School.DAL.csproj",
-      "packagesPath": "C:\\Users\\Kab-31-14\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kab-31-14\\Desktop\\School-main\\School.DAL\\obj\\",
+      "projectPath": "D:\\School\\School.DAL\\School.DAL.csproj",
+      "packagesPath": "C:\\Users\\mahboy\\.nuget\\packages\\",
+      "outputPath": "D:\\School\\School.DAL\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Kab-31-14\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mahboy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1109,8 +1114,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Kab-31-14\\Desktop\\School-main\\School.Domain\\School.Domain.csproj": {
-              "projectPath": "C:\\Users\\Kab-31-14\\Desktop\\School-main\\School.Domain\\School.Domain.csproj"
+            "D:\\School\\School.Domain\\School.Domain.csproj": {
+              "projectPath": "D:\\School\\School.Domain\\School.Domain.csproj"
             }
           }
         }
@@ -1157,7 +1162,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
