@@ -33,6 +33,10 @@ namespace School.DAL.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("text");
 
+                    b.Property<Guid>("Id_Product")
+                        .HasColumnType("uuid")
+                        .HasColumnName("Id_product");
+
                     b.Property<string>("Otziv")
                         .HasColumnType("text")
                         .HasColumnName("otziv");
@@ -135,6 +139,10 @@ namespace School.DAL.Migrations
                     b.Property<Guid?>("PictureProducId")
                         .HasColumnType("uuid");
 
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric")
+                        .HasColumnName("price");
+
                     b.Property<decimal>("Product")
                         .HasColumnType("numeric")
                         .HasColumnName("product");
@@ -165,9 +173,16 @@ namespace School.DAL.Migrations
                         .HasColumnType("text")
                         .HasColumnName("description");
 
+                    b.Property<Guid>("Id_Order")
+                        .HasColumnType("uuid")
+                        .HasColumnName("Id_order");
+
                     b.Property<Guid>("Id_User")
                         .HasColumnType("uuid")
                         .HasColumnName("id_user");
+
+                    b.Property<Guid?>("OrdersDbId")
+                        .HasColumnType("uuid");
 
                     b.Property<string>("PathImage")
                         .HasColumnType("text")
@@ -181,6 +196,8 @@ namespace School.DAL.Migrations
                         .HasColumnType("uuid");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("OrdersDbId");
 
                     b.HasIndex("UserDbId");
 
@@ -239,7 +256,7 @@ namespace School.DAL.Migrations
                         .HasForeignKey("CategoryDbId");
 
                     b.HasOne("School.Domain.ModelsDb.OrdersDb", "OderDb")
-                        .WithMany("Products")
+                        .WithMany("ProductsDb")
                         .HasForeignKey("OderDbId");
 
                     b.HasOne("School.Domain.ModelsDb.PictureProductDb", "PictureProduc")
@@ -255,9 +272,15 @@ namespace School.DAL.Migrations
 
             modelBuilder.Entity("School.Domain.ModelsDb.RequestDb", b =>
                 {
+                    b.HasOne("School.Domain.ModelsDb.OrdersDb", "OrdersDb")
+                        .WithMany("RequestsDb")
+                        .HasForeignKey("OrdersDbId");
+
                     b.HasOne("School.Domain.ModelsDb.UserDb", "UserDb")
                         .WithMany("requestDbs")
                         .HasForeignKey("UserDbId");
+
+                    b.Navigation("OrdersDb");
 
                     b.Navigation("UserDb");
                 });
@@ -269,7 +292,9 @@ namespace School.DAL.Migrations
 
             modelBuilder.Entity("School.Domain.ModelsDb.OrdersDb", b =>
                 {
-                    b.Navigation("Products");
+                    b.Navigation("ProductsDb");
+
+                    b.Navigation("RequestsDb");
                 });
 
             modelBuilder.Entity("School.Domain.ModelsDb.PictureProductDb", b =>

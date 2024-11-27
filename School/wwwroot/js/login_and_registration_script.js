@@ -1,32 +1,41 @@
 ﻿document.addEventListener('DOMContentLoaded', function () {
-    // Функция для скрытия или показа формы
-    function hiddenOpen_Closeclick(selector) {
-        let x = document.querySelector(selector || ".container-login-registration");
+    // Функция для открытия/закрытия формы
+    function hiddenOpen_Closeclick(container) {
+        let x = document.querySelector(container);
         if (x.style.display == "none") {
             x.style.display = "grid";
+
         } else {
             x.style.display = "none";
         }
     }
 
-    // Скрытие/открытие контейнера по клику
+    // Обработчики для скрытия/открытия формы
     document.getElementById("click-to-hide").addEventListener("click", function () {
-        hiddenOpen_Closeclick();
+        hiddenOpen_Closeclick(".container-login-registration");
     });
 
-    document.getElementById("side-menu-button-click-to-hide").addEventListener("click", function () {
-        hiddenOpen_Closeclick();
+    document.getElementById('side-menu-button-click-to-hide').addEventListener('click', function () {
+        hiddenOpen_Closeclick(".container-login-registration");
     });
 
     document.querySelector(".overlay").addEventListener("click", function () {
-        hiddenOpen_Closeclick();
+        hiddenOpen_Closeclick(".container-login-registration");
     });
 
     document.querySelector(".button_confirm_close").addEventListener("click", function () {
         hiddenOpen_Closeclick(".confirm-email-container");
     });
 
-    // Обработка кнопок регистрации и входа
+    //const button_confirm = document.querySelector(".button_confirm_close");
+
+    //if (button_confirm) {
+    //    button_confirm.addEventListener("click", function () {
+    //        hiddenOpen_Closeclick(".container-login-registration");
+    //    });
+    //}
+
+    // Переключение между формами входа и регистрации
     const signInBtn = document.querySelector('.signin-btn');
     const signUpBtn = document.querySelector('.signup-btn');
     const formBox = document.querySelector('.form-box');
@@ -44,30 +53,32 @@
         });
     }
 
-    // Обработка кнопок входа и регистрации
+    // Обработка формы регистрации;
+    const form_btn_signup = document.querySelector('.form_btn_signup');
     const form_btn_signin = document.querySelector('.form_btn_signin');
-    const form_btn_signup = document.querySelector('.block-item_btn signup-btn');
 
-    // Вход
     if (form_btn_signin) {
+
         form_btn_signin.addEventListener('click', function () {
             const requestURL = '/Home/Login';
+
             const errorContainer = document.getElementById('error-messages-singin');
 
             const form = {
                 email: document.getElementById("signin_email"),
                 password: document.getElementById("signin_password")
-            };
+            }
 
             const body = {
                 email: form.email.value,
                 password: form.password.value
-            };
-
+            }
             sendRequest('POST', requestURL, body)
                 .then(data => {
                     cleaningAndClosingForm(form, errorContainer);
+
                     console.log('Успешный ответ:', data);
+
                     location.reload();
                 })
                 .catch(err => {
@@ -77,10 +88,11 @@
         });
     }
 
-    // Регистрация
     if (form_btn_signup) {
+
         form_btn_signup.addEventListener('click', function () {
             const requestURL = '/Home/Register';
+
             const errorContainer = document.getElementById('error-messages-signup');
 
             const form = {
@@ -88,22 +100,23 @@
                 email: document.getElementById("signup_email"),
                 password: document.getElementById("signup_password"),
                 passwordConfirm: document.getElementById("signup_confirm_password"),
-            };
-
+            }
             const body = {
                 login: form.login.value,
                 email: form.email.value,
                 password: form.password.value,
                 passwordConfirm: form.passwordConfirm.value,
-            };
+                PasswordConfrim: form.passwordConfirm.value,
+            }
 
             sendRequest('POST', requestURL, body)
                 .then(data => {
                     cleaningAndClosingForm(form, errorContainer);
-                    console.log('Успешный ответ:', data);
+                    console.log('Успешный ответ', data);
+
+                    // Закрытие формы регистрации и открытие формы подтверждения
                     hiddenOpen_Closeclick(".confirm-email-container");
                     confirmEmail(data);
-                    location.reload();
                 })
                 .catch(err => {
                     displayErrors(err, errorContainer);
@@ -112,12 +125,12 @@
         });
     }
 
-    // Функция для отправки запросов
+
+    // Функция отправки запроса
     function sendRequest(method, url, body = null) {
         const headers = {
             'Content-Type': 'application/json'
         };
-
         return fetch(url, {
             method: method,
             body: JSON.stringify(body),
@@ -125,16 +138,16 @@
         }).then(response => {
             if (!response.ok) {
                 return response.json().then(errorData => {
-                    throw errorData;
+                    throw errorData; // ошибки для обработки в catch
                 });
             }
             return response.json();
         });
     }
 
-    // Отображение ошибок
+    // Функция отображения ошибок
     function displayErrors(errors, errorContainer) {
-        errorContainer.innerHTML = '';
+        errorContainer.innerHTML = ''; // Очистка предыдущих ошибок
         errors.forEach(error => {
             const errorMessage = document.createElement('div');
             errorMessage.classList.add('error');
@@ -143,40 +156,37 @@
         });
     }
 
-    // Очистка формы и закрытие
+    // Функция очистки формы и скрытия
     function cleaningAndClosingForm(form, errorContainer) {
         errorContainer.innerHTML = '';
-
         for (const key in form) {
             if (form.hasOwnProperty(key)) {
-                form[key].value = ''; // Сброс значений полей формы
+                form[key].value = ''; // Очистка значений
             }
         }
-
-        hiddenOpen_Closeclick();
+        hiddenOpen_Closeclick(".container-login-registration"); // Закрытие формы
     }
 
-    // Подтверждение email
     function confirmEmail(body) {
-        const errorContainer = document.getElementById('error-messages-confirm-email');
-
         document.querySelector(".send_confirm").addEventListener('click', function () {
-            body.codeConfirm = document.getElementById('code_confirm').value;
+            body.CodeConfirm = document.getElementById('code_confirm').value;
             const requestURL = '/Home/ConfirmEmail';
 
             sendRequest('POST', requestURL, body)
                 .then(data => {
                     console.log("Код подтверждения:", data);
+
                     hiddenOpen_Closeclick(".confirm-email-container");
                     location.reload();
                 })
                 .catch(err => {
                     displayErrors(err, errorContainer);
+
                     console.log(err);
                 });
         });
     }
 
-    // Закрытие формы по клику на боковое меню
-    document.getElementById("side-menu-button-click-to-hide").addEventListener("click", hiddenOpen_Closeclick);
 });
+    
+    

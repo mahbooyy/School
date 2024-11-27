@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
 using AutoMapper;
-using School.Domain;
 using School.Domain.Models;
 using School.Domain.ModelsDb;
 using School.Domain.Response;
@@ -15,9 +14,7 @@ using School.Domain.Validators;
 using System.Linq;
 using MimeKit;
 using System.IO;
-using System.Net.Mail;
-using MailKit.Net.Smtp;
-using School.DAL.Storage;
+
 
 
 namespace School.Service
@@ -148,8 +145,7 @@ namespace School.Service
         public async Task SendEmail(string email, string confirmationCode)
         {
             // Путь к файлу с паролем
-            string path = @"D:\Sсhool\ddnt oppen.txt";
-
+            string path = "D:\\tizul\\EtilPassword\\password.txt";
             // Создание сообщения
             var emailMessage = new MimeMessage();
             emailMessage.From.Add(new MailboxAddress("Администрация сайта", "Karandash.com"));
@@ -221,7 +217,7 @@ namespace School.Service
                 try
                 {
                     await client.ConnectAsync("smtp.gmail.com", 465, true);
-                    await client.AuthenticateAsync("toptopxlopxlop@gmail.com", password.Trim());
+                    await client.AuthenticateAsync("toptopxlopxlop1@gmail.com", password.Trim());
                     await client.SendAsync(emailMessage);
                 }
                 finally
@@ -234,40 +230,34 @@ namespace School.Service
         {
             try
             {
-                // Проверка на соответствие кода подтверждения
                 if (code != confirmCode)
                 {
                     throw new Exception("Неверный код! Регистрация не выполнена.");
                 }
 
-                // Установка значений по умолчанию
-                model.PathImage = "/images/user.png";
+                model.PathImage = "/Images/user.png";
                 model.CreatedAt = DateTime.Now;
                 model.Password = HashPasswordHelper.HashPassword(model.Password);
 
-                // Валидация модели
                 await _validationrules.ValidateAndThrowAsync(model);
 
-                // Преобразование модели пользователя в модель базы данных
                 var userdb = _mapper.Map<UserDb>(model);
 
-                // Сохранение пользователя в хранилище
                 await _UserStorage.Add(userdb);
 
-                // Аутентификация пользователя
-                var result = AuthenticateUserHelper.Authenticate(userdb);
+                var result = AuthenticateUserHelper.Authenticate(_mapper.Map<User>(userdb));
 
-                // Возврат успешного ответа
-                return new BaseResponse<ClaimsIdentity>()
+                return new BaseResponse<ClaimsIdentity>
                 {
                     Data = result,
                     Description = "Объект добавился",
                     StatusCode = StatusCode.OK
+
+
                 };
             }
             catch (Exception ex)
             {
-                // Обработка исключения и возврат ошибки
                 return new BaseResponse<ClaimsIdentity>()
                 {
                     Description = ex.Message,
@@ -275,6 +265,5 @@ namespace School.Service
                 };
             }
         }
-
     }
 }

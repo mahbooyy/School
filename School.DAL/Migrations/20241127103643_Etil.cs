@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace School.DAL.Migrations
 {
-    public partial class test : Migration
+    public partial class Etil : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -15,6 +15,7 @@ namespace School.DAL.Migrations
                     Description = table.Column<string>(type: "text", nullable: true),
                     pathImg = table.Column<int>(type: "integer", nullable: false),
                     createdAt = table.Column<DateTime>(type: "timestamp", nullable: false),
+                    Id_product = table.Column<Guid>(type: "uuid", nullable: false),
                     otziv = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
@@ -76,29 +77,6 @@ namespace School.DAL.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "request",
-                columns: table => new
-                {
-                    id = table.Column<Guid>(type: "uuid", nullable: false),
-                    id_user = table.Column<Guid>(type: "uuid", nullable: false),
-                    pathImage = table.Column<string>(type: "text", nullable: true),
-                    description = table.Column<string>(type: "text", nullable: true),
-                    status = table.Column<string>(type: "text", nullable: true),
-                    createdAt = table.Column<DateTime>(type: "timestamp", nullable: false),
-                    UserDbId = table.Column<Guid>(type: "uuid", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_request", x => x.id);
-                    table.ForeignKey(
-                        name: "FK_request_user_UserDbId",
-                        column: x => x.UserDbId,
-                        principalTable: "user",
-                        principalColumn: "id",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "products",
                 columns: table => new
                 {
@@ -108,6 +86,7 @@ namespace School.DAL.Migrations
                     product = table.Column<decimal>(type: "numeric", nullable: false),
                     pathImg = table.Column<int>(type: "integer", nullable: false),
                     createdAt = table.Column<DateTime>(type: "timestamp", nullable: false),
+                    price = table.Column<decimal>(type: "numeric", nullable: false),
                     OderDbId = table.Column<Guid>(type: "uuid", nullable: true),
                     CategoryDbId = table.Column<Guid>(type: "uuid", nullable: true),
                     PictureProducId = table.Column<Guid>(type: "uuid", nullable: true)
@@ -135,6 +114,37 @@ namespace School.DAL.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "request",
+                columns: table => new
+                {
+                    id = table.Column<Guid>(type: "uuid", nullable: false),
+                    id_user = table.Column<Guid>(type: "uuid", nullable: false),
+                    pathImage = table.Column<string>(type: "text", nullable: true),
+                    description = table.Column<string>(type: "text", nullable: true),
+                    status = table.Column<string>(type: "text", nullable: true),
+                    createdAt = table.Column<DateTime>(type: "timestamp", nullable: false),
+                    Id_order = table.Column<Guid>(type: "uuid", nullable: false),
+                    OrdersDbId = table.Column<Guid>(type: "uuid", nullable: true),
+                    UserDbId = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_request", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_request_orders_OrdersDbId",
+                        column: x => x.OrdersDbId,
+                        principalTable: "orders",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_request_user_UserDbId",
+                        column: x => x.UserDbId,
+                        principalTable: "user",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_orders_UserDbId",
                 table: "orders",
@@ -156,6 +166,11 @@ namespace School.DAL.Migrations
                 column: "PictureProducId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_request_OrdersDbId",
+                table: "request",
+                column: "OrdersDbId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_request_UserDbId",
                 table: "request",
                 column: "UserDbId");
@@ -173,10 +188,10 @@ namespace School.DAL.Migrations
                 name: "category");
 
             migrationBuilder.DropTable(
-                name: "orders");
+                name: "picture_product");
 
             migrationBuilder.DropTable(
-                name: "picture_product");
+                name: "orders");
 
             migrationBuilder.DropTable(
                 name: "user");

@@ -238,3 +238,15 @@ D:\School\School\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 D:\School\School\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
 D:\School\School\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
 D:\School\School\obj\Debug\net5.0\Razor\Views\Shared\_ConfirmEmailPartial.cshtml.g.cs
+D:\tizul\School\School\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+D:\tizul\School\School\bin\Debug\net5.0\FluentValidation.dll
+D:\tizul\School\School\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+D:\tizul\School\School\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\tizul\School\School\bin\Debug\net5.0\MailKit.dll
+D:\tizul\School\School\bin\Debug\net5.0\MimeKit.dll
+D:\tizul\School\School\bin\Debug\net5.0\System.Formats.Asn1.dll
+D:\tizul\School\School\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\tizul\School\School\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+D:\tizul\School\School\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+D:\tizul\School\School\obj\Debug\net5.0\School.MvcApplicationPartsAssemblyInfo.cs
+D:\tizul\School\School\obj\Debug\net5.0\Razor\Views\Shared\_ConfirmEmailPartial.cshtml.g.cs

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\School\\School\\School.csproj": {}
+    "D:\\tizul\\School\\School\\School.csproj": {}
   },
   "projects": {
-    "D:\\School\\School.DAL\\School.DAL.csproj": {
+    "D:\\tizul\\School\\School.DAL\\School.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\School.DAL\\School.DAL.csproj",
+        "projectUniqueName": "D:\\tizul\\School\\School.DAL\\School.DAL.csproj",
         "projectName": "School.DAL",
-        "projectPath": "D:\\School\\School.DAL\\School.DAL.csproj",
-        "packagesPath": "C:\\Users\\mahboy\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\School.DAL\\obj\\",
+        "projectPath": "D:\\tizul\\School\\School.DAL\\School.DAL.csproj",
+        "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
+        "outputPath": "D:\\tizul\\School\\School.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mahboy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kab-35-17\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\School\\School.Domain\\School.Domain.csproj": {
-                "projectPath": "D:\\School\\School.Domain\\School.Domain.csproj"
+              "D:\\tizul\\School\\School.Domain\\School.Domain.csproj": {
+                "projectPath": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj"
               }
             }
           }
@@ -43,11 +42,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -71,8 +65,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -81,24 +74,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\School\\School.Domain\\School.Domain.csproj": {
+    "D:\\tizul\\School\\School.Domain\\School.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\School.Domain\\School.Domain.csproj",
+        "projectUniqueName": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj",
         "projectName": "School.Domain",
-        "projectPath": "D:\\School\\School.Domain\\School.Domain.csproj",
-        "packagesPath": "C:\\Users\\mahboy\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\School.Domain\\obj\\",
+        "projectPath": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj",
+        "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
+        "outputPath": "D:\\tizul\\School\\School.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mahboy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kab-35-17\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -107,7 +100,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -120,11 +112,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -146,8 +133,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -156,24 +142,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\School\\School.Service\\School.Service.csproj": {
+    "D:\\tizul\\School\\School.Service\\School.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\School.Service\\School.Service.csproj",
+        "projectUniqueName": "D:\\tizul\\School\\School.Service\\School.Service.csproj",
         "projectName": "School.Service",
-        "projectPath": "D:\\School\\School.Service\\School.Service.csproj",
-        "packagesPath": "C:\\Users\\mahboy\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\School.Service\\obj\\",
+        "projectPath": "D:\\tizul\\School\\School.Service\\School.Service.csproj",
+        "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
+        "outputPath": "D:\\tizul\\School\\School.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mahboy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kab-35-17\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -182,18 +168,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\School\\School.DAL\\School.DAL.csproj": {
-                "projectPath": "D:\\School\\School.DAL\\School.DAL.csproj"
+              "D:\\tizul\\School\\School.DAL\\School.DAL.csproj": {
+                "projectPath": "D:\\tizul\\School\\School.DAL\\School.DAL.csproj"
               },
-              "D:\\School\\School.Domain\\School.Domain.csproj": {
-                "projectPath": "D:\\School\\School.Domain\\School.Domain.csproj"
+              "D:\\tizul\\School\\School.Domain\\School.Domain.csproj": {
+                "projectPath": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj"
               }
             }
           }
@@ -202,11 +187,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -228,8 +208,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -238,24 +217,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\School\\School\\School.csproj": {
+    "D:\\tizul\\School\\School\\School.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\School\\School.csproj",
+        "projectUniqueName": "D:\\tizul\\School\\School\\School.csproj",
         "projectName": "School",
-        "projectPath": "D:\\School\\School\\School.csproj",
-        "packagesPath": "C:\\Users\\mahboy\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\School\\obj\\",
+        "projectPath": "D:\\tizul\\School\\School\\School.csproj",
+        "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
+        "outputPath": "D:\\tizul\\School\\School\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mahboy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kab-35-17\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -264,21 +243,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\School\\School.DAL\\School.DAL.csproj": {
-                "projectPath": "D:\\School\\School.DAL\\School.DAL.csproj"
+              "D:\\tizul\\School\\School.DAL\\School.DAL.csproj": {
+                "projectPath": "D:\\tizul\\School\\School.DAL\\School.DAL.csproj"
               },
-              "D:\\School\\School.Domain\\School.Domain.csproj": {
-                "projectPath": "D:\\School\\School.Domain\\School.Domain.csproj"
+              "D:\\tizul\\School\\School.Domain\\School.Domain.csproj": {
+                "projectPath": "D:\\tizul\\School\\School.Domain\\School.Domain.csproj"
               },
-              "D:\\School\\School.Service\\School.Service.csproj": {
-                "projectPath": "D:\\School\\School.Service\\School.Service.csproj"
+              "D:\\tizul\\School\\School.Service\\School.Service.csproj": {
+                "projectPath": "D:\\tizul\\School\\School.Service\\School.Service.csproj"
               }
             }
           }
@@ -287,11 +265,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -315,8 +288,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -328,7 +300,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }
