@@ -265,5 +265,45 @@ namespace School.Service
                 };
             }
         }
+            public async Task<BaseResponse<ClaimsIdentity>> IsCreatedAccount(User model)
+            {
+                try
+                {
+                    var userDb = new UserDb();
+                    if (await _UserStorage.GetAll().FirstOrDefaultAsync(x => x.Email == model.Email) == null)
+                    {
+                        model.Password = "google";
+                        model.CreatedAt = DateTime.Now;
+
+                        userDb = _mapper.Map<UserDb>(model);
+
+                        await _UserStorage.Add(userDb);
+
+                        var resultRegister = AuthenticateUserHelper.Authenticate(model);
+                        return new BaseResponse<ClaimsIdentity>()
+                        {
+                            Data = resultRegister,
+                            Description = "Объект добавился",
+                            StatusCode = StatusCode.OK
+                        };
+                    }
+
+                    var resultLogin = AuthenticateUserHelper.Authenticate(model);
+                    return new BaseResponse<ClaimsIdentity>()
+                    {
+                        Data = resultLogin,
+                        Description = "Объект уже был создан",
+                        StatusCode = StatusCode.OK
+                    };
+                }
+                catch (Exception ex)
+                {
+                    return new BaseResponse<ClaimsIdentity>()
+                    {
+                        Description = ex.Message,
+                        StatusCode = StatusCode.InternalServerError
+                    };
+                }
+            }
     }
 }

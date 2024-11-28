@@ -1,16 +1,13 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using School.DAL;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Authentication;
 
 namespace School
 {
@@ -32,14 +29,21 @@ namespace School
             services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             services.InitializeRepositories();
             services.InitializeServies();
+            services.InitializeRepositories();
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
             .AddCookie(options =>
             {
                 options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Home/Login");
                 options.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Home/Login");
-            });
-            services.InitializeRepositories();
+            })
+            .AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
+            {
+                options.ClientId = Configuration.GetSection("GoogleKeys:ClientId").Value;
+                options.ClientSecret = Configuration.GetSection("GoogleKeys:ClientSecret").Value;
+                options.Scope.Add("profile");
 
+                options.ClaimActions.MapJsonKey("picture", "picture"); // ßâíîå ìàïïèðîâàíèå picture 
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

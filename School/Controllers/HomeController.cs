@@ -12,129 +12,196 @@ using Microsoft.AspNetCore.Authentication;
 using System.Security.Claims;
 using Schoolerror;
 using System.Diagnostics;
+using System;
+using System.Net.Http;
+using System.IO;
+using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Hosting;
 
 namespace School.Controllers
 {
     public class HomeController : Controller
     {
-        public readonly ILogger<HomeController> _logger;
+            public readonly ILogger<HomeController> _logger;
 
-        public IActionResult SiteInformation()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
-
-
-        private readonly IAccountService _accountService;
-
-        private IMapper _mapper { get; set; }
-
-
-        MapperConfiguration mapperConfiguration = new MapperConfiguration(p =>
-        {
-            p.AddProfile<AppMappingProfile>();
-        });
-
-        public HomeController(ILogger<HomeController> logger, IAccountService accountService)
-        {
-            _accountService = accountService;
-            _logger = logger;
-            _mapper = mapperConfiguration.CreateMapper();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Login([FromBody] LoginViewModel model)
-        {
-            if (ModelState.IsValid)
+            public IActionResult SiteInformation()
             {
-                var user = _mapper.Map<User>(model);
+                return View();
+            }
 
-                var responce = await _accountService.Login(user);
+            public IActionResult Privacy()
+            {
+                return View();
+            }
+
+            [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+            public IActionResult Error()
+            {
+                return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            }
+
+            private readonly IWebHostEnvironment _appEnviroment;
+
+            private readonly IAccountService _accountService;
+
+            private IMapper _mapper { get; set; }
+
+
+            MapperConfiguration mapperConfiguration = new MapperConfiguration(p =>
+            {
+                p.AddProfile<AppMappingProfile>();
+            });
+
+            public HomeController(ILogger<HomeController> logger, IAccountService accountService, IWebHostEnvironment appEnviroment)
+            {
+                _accountService = accountService;
+                _logger = logger;
+                _mapper = mapperConfiguration.CreateMapper();
+                _appEnviroment = appEnviroment;
+            }
+
+            [HttpPost]
+            public async Task<IActionResult> Login([FromBody] LoginViewModel model)
+            {
+                if (ModelState.IsValid)
+                {
+                    var user = _mapper.Map<User>(model);
+
+                    var responce = await _accountService.Login(user);
+
+                    if (responce.StatusCode == Domain.Response.StatusCode.OK)
+                    {
+                        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                            new ClaimsPrincipal(responce.Data));
+
+
+                        return Ok(model);
+                    }
+                    ModelState.AddModelError("", responce.Description);
+
+                }
+
+                var errors = ModelState.Values.SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+                return BadRequest(errors);
+            }
+
+            [HttpPost]
+            public async Task<IActionResult> Register([FromBody] RegisterViewModel model)
+            {
+                if (ModelState.IsValid)
+                {
+                    var user = _mapper.Map<User>(model);
+
+                    var confirm = _mapper.Map<ConfirmEmailViewModel>(model);
+
+                    var code = await _accountService.Register(user);
+
+                    confirm.GeneratedCode = code.Data;
+
+                    return Ok(confirm);
+
+
+                }
+                var errors = ModelState.Values.SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+                return BadRequest(errors);
+            }
+
+            [HttpPost]
+            public async Task<IActionResult> ConfirmEmail([FromBody] ConfirmEmailViewModel confirmEmailModel)
+            {
+                var user = _mapper.Map<User>(confirmEmailModel);
+                var responce = await _accountService.ConfirmEmail(user, confirmEmailModel.GeneratedCode, confirmEmailModel.CodeConfirm);
 
                 if (responce.StatusCode == Domain.Response.StatusCode.OK)
                 {
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                        new ClaimsPrincipal(responce.Data));
+                    new ClaimsPrincipal(responce.Data));
 
-
-                    return Ok(model);
+                    return Ok(confirmEmailModel);
                 }
                 ModelState.AddModelError("", responce.Description);
 
+                var errors = ModelState.Values.SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+                return BadRequest(errors);
             }
 
-            var errors = ModelState.Values.SelectMany(v => v.Errors)
-            .Select(e => e.ErrorMessage)
-            .ToList();
 
-            return BadRequest(errors);
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Register([FromBody] RegisterViewModel model)
-        {
-            if (ModelState.IsValid)
+            [AutoValidateAntiforgeryToken]
+            public async Task<IActionResult> Logout()
             {
-                var user = _mapper.Map<User>(model);
+                await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
-                var confirm = _mapper.Map<ConfirmEmailViewModel>(model);
-
-                var code = await _accountService.Register(user);
-
-                confirm.GeneratedCode = code.Data;
-
-                return Ok(confirm);
-
-
+                return RedirectToAction("SiteInformation", "Home");
             }
-            var errors = ModelState.Values.SelectMany(v => v.Errors)
-            .Select(e => e.ErrorMessage)
-            .ToList();
 
-            return BadRequest(errors);
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> ConfirmEmail([FromBody] ConfirmEmailViewModel confirmEmailModel)
-        {
-            var user = _mapper.Map<User>(confirmEmailModel);
-            var responce = await _accountService.ConfirmEmail(user, confirmEmailModel.GeneratedCode, confirmEmailModel.CodeConfirm);
-
-            if (responce.StatusCode == Domain.Response.StatusCode.OK)
+            public async Task AuthenticationGoogle(string returnUrl = "/")
             {
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                new ClaimsPrincipal(responce.Data));
-
-                return Ok(confirmEmailModel);
+                await HttpContext.ChallengeAsync(GoogleDefaults.AuthenticationScheme,
+                    new AuthenticationProperties
+                    {
+                        RedirectUri = Url.Action("GoogleResponse", new { returnUrl }),
+                        Parameters = { { "prompt", "select_account" } }
+                    });
             }
-            ModelState.AddModelError("", responce.Description);
 
-            var errors = ModelState.Values.SelectMany(v => v.Errors)
-            .Select(e => e.ErrorMessage)
-            .ToList();
+            public async Task<IActionResult> GoogleResponse(string returnUrl = "/")
+            {
+                try
+                {
+                    var result = await HttpContext.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
-            return BadRequest(errors);
-        }
+                    if (result?.Succeeded == true)
+                    {
+                        User model = new User
+                        {
+                            Login = result.Principal.FindFirst(ClaimTypes.Name)?.Value,
+                            Email = result.Principal.FindFirst(ClaimTypes.Email)?.Value,
+                            PathImage = "/" + SaveImageInImageUser(result.Principal.FindFirst("picture")?.Value, result).Result ?? "/Images/"
+                        };
 
+                        var response = await _accountService.IsCreatedAccount(model);
+                        if (response.StatusCode == Domain.Response.StatusCode.OK)
+                        {
+                            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                                new ClaimsPrincipal(response.Data));
+                            return Redirect(returnUrl);
+                        }
+                    }
+                    return BadRequest("Аутентификация не удалась.");
+                }
+                catch (Exception ex)
+                {
+                    return StatusCode(500, ex.Message);
+                }
 
-        [AutoValidateAntiforgeryToken]
-        public async Task<IActionResult> Logout()
-        {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            }
 
-            return RedirectToAction("SiteInformation", "Home");
-        }
+            private async Task<string> SaveImageInImageUser(string imageUrl, AuthenticateResult result)
+            {
+                string filePath = "";
+                if (!string.IsNullOrEmpty(imageUrl))
+                {
+                    using (var httpClient = new HttpClient())
+                    {
+                        filePath = Path.Combine("ImageUser", $"{result.Principal.FindFirst(ClaimTypes.Email)?.Value}-avatar.jpg");
 
+                        var imageBytes = await httpClient.GetByteArrayAsync(imageUrl);
+
+                        await System.IO.File.WriteAllBytesAsync(Path.Combine(_appEnviroment.WebRootPath, filePath), imageBytes);
+                    }
+
+                }
+                return filePath;
+            }
     }
 }
+

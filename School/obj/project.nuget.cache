@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fDJb4cfQ7klDqgoQULHbCTNx/WVsov+VLVRX7o9/7JyrF+rJvdMP+evROa/DKKXckIX1Fe05Wpj6j0w+b89Lgg==",
+  "dgSpecHash": "PM48FlpJ50MU43ZCB8n+88RxBGSpoBHaztZuCGq7Fjt6/L6ZhI1r073Ifj/Iz42rvysK54F+5imAdmstRBlFSQ==",
   "success": true,
   "projectFilePath": "D:\\tizul\\School\\School\\School.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\kab-35-17\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\kab-35-17\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kab-35-17\\.nuget\\packages\\mailkit\\4.8.0\\mailkit.4.8.0.nupkg.sha512",
+    "C:\\Users\\kab-35-17\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\5.0.17\\microsoft.aspnetcore.authentication.google.5.0.17.nupkg.sha512",
     "C:\\Users\\kab-35-17\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\kab-35-17\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\kab-35-17\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",

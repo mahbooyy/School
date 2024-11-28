@@ -15,5 +15,7 @@ namespace School.Service.Interface
         Task<BaseResponse<ClaimsIdentity>> Login(User model);
 
         Task<BaseResponse<ClaimsIdentity>> ConfirmEmail(User model, string code,string confirmCode);
+
+        Task<BaseResponse<ClaimsIdentity>> IsCreatedAccount(User model);
     }
 }
