@@ -17,7 +17,7 @@ using System.IO;
 
 
 
-namespace School.Service
+namespace School.Service.Realizations
 {
     public class AccountService : IAccountService
     {
@@ -265,45 +265,45 @@ namespace School.Service
                 };
             }
         }
-            public async Task<BaseResponse<ClaimsIdentity>> IsCreatedAccount(User model)
+        public async Task<BaseResponse<ClaimsIdentity>> IsCreatedAccount(User model)
+        {
+            try
             {
-                try
+                var userDb = new UserDb();
+                if (await _UserStorage.GetAll().FirstOrDefaultAsync(x => x.Email == model.Email) == null)
                 {
-                    var userDb = new UserDb();
-                    if (await _UserStorage.GetAll().FirstOrDefaultAsync(x => x.Email == model.Email) == null)
-                    {
-                        model.Password = "google";
-                        model.CreatedAt = DateTime.Now;
+                    model.Password = "google";
+                    model.CreatedAt = DateTime.Now;
 
-                        userDb = _mapper.Map<UserDb>(model);
+                    userDb = _mapper.Map<UserDb>(model);
 
-                        await _UserStorage.Add(userDb);
+                    await _UserStorage.Add(userDb);
 
-                        var resultRegister = AuthenticateUserHelper.Authenticate(model);
-                        return new BaseResponse<ClaimsIdentity>()
-                        {
-                            Data = resultRegister,
-                            Description = "Объект добавился",
-                            StatusCode = StatusCode.OK
-                        };
-                    }
-
-                    var resultLogin = AuthenticateUserHelper.Authenticate(model);
+                    var resultRegister = AuthenticateUserHelper.Authenticate(model);
                     return new BaseResponse<ClaimsIdentity>()
                     {
-                        Data = resultLogin,
-                        Description = "Объект уже был создан",
+                        Data = resultRegister,
+                        Description = "Объект добавился",
                         StatusCode = StatusCode.OK
                     };
                 }
-                catch (Exception ex)
+
+                var resultLogin = AuthenticateUserHelper.Authenticate(model);
+                return new BaseResponse<ClaimsIdentity>()
                 {
-                    return new BaseResponse<ClaimsIdentity>()
-                    {
-                        Description = ex.Message,
-                        StatusCode = StatusCode.InternalServerError
-                    };
-                }
+                    Data = resultLogin,
+                    Description = "Объект уже был создан",
+                    StatusCode = StatusCode.OK
+                };
             }
+            catch (Exception ex)
+            {
+                return new BaseResponse<ClaimsIdentity>()
+                {
+                    Description = ex.Message,
+                    StatusCode = StatusCode.InternalServerError
+                };
+            }
+        }
     }
 }

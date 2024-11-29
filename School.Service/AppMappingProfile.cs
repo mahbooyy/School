@@ -19,6 +19,8 @@ namespace School.Service
             CreateMap<User, RegisterViewModel>().ReverseMap();
             CreateMap<RegisterViewModel, ConfirmEmailViewModel>().ReverseMap();
             CreateMap<User, ConfirmEmailViewModel>().ReverseMap();
+            CreateMap<Category, CategoryDb>().ReverseMap();
+            CreateMap<Category, CategoryProductsViewModel>().ReverseMap();
 
         }
     }

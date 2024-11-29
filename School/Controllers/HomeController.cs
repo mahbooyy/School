@@ -33,8 +33,13 @@ namespace School.Controllers
             {
                 return View();
             }
+            public IActionResult CategoryProducts()
+        {
+            // Логика для действия
+            return View();
+        }
 
-            [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
             public IActionResult Error()
             {
                 return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
@@ -165,7 +170,7 @@ namespace School.Controllers
                         {
                             Login = result.Principal.FindFirst(ClaimTypes.Name)?.Value,
                             Email = result.Principal.FindFirst(ClaimTypes.Email)?.Value,
-                            PathImage = "/" + SaveImageInImageUser(result.Principal.FindFirst("picture")?.Value, result).Result ?? "/Images/"
+                            PathImage = "/" + SaveImageInImageUser(result.Principal.FindFirst("picture")?.Value, result).Result ?? "/css/Images/ETIL_BROTHER2.png"
                         };
 
                         var response = await _accountService.IsCreatedAccount(model);

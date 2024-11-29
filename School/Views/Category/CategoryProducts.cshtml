@@ -1,0 +1,57 @@
+﻿@model List<School.Domain.ViewModels.LoginAndRegistration.CategoryProductsViewModel>
+
+    @{
+        Layout = "_Layout";
+        ViewData["Title"] = "Категории";
+    }
+
+
+<div id="side-menu" class="side-menu">
+    <div>
+        <ul>
+            <li><a href="#home">Чертёжные принадлжености</a></li>
+            <li><a href="#contact">Письменные принадлежности</a></li>
+            <li><a href="#3">Товары для школы и учёбы</a></li>
+            <li><a href="#3">Бумажная продукция</a></li>
+        </ul>
+    </div>
+    </div>
+    <div id="header-bottom">
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Чертёжные принадлжености</a></li>
+                <li><a href="#contact">Письменные принадлежности</a></li>
+                <li><a href="#3">Товары для школы и учёбы</a></li>
+                <li><a href="#3">Бумажная продукция</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-counties">
+        <div class="link-page">
+            <a href="/Home/SiteInformation">Главная</a>
+        </div>
+        <div class="grid-container">
+            @if (Model != null)
+            {
+                foreach (var item in Model)
+                {
+                    <div class="card-category">
+                        <img src="@item.PathImage "alt="@item.Otziv" class="card-image" />
+                        <div class="card-overlay">
+                            <div class="card-title">@item.Otziv</div>
+                        </div>
+                    </div>
+                }
+                foreach (var item in Model)
+                {
+                    <div class="card-category">
+                        <img src="@item.PathImage " alt="@item.Otziv" class="card-image" />
+                        <div class="card-overlay">
+                            <div class="card-title">@item.Otziv</div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\School\\School.Domain\\School.Domain.csproj": {}
+    "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj": {}
   },
   "projects": {
-    "D:\\School\\School.Domain\\School.Domain.csproj": {
+    "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\School.Domain\\School.Domain.csproj",
+        "projectUniqueName": "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj",
         "projectName": "School.Domain",
-        "projectPath": "D:\\School\\School.Domain\\School.Domain.csproj",
-        "packagesPath": "C:\\Users\\mahboy\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\School.Domain\\obj\\",
+        "projectPath": "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj",
+        "packagesPath": "C:\\Users\\Kab-31-14\\.nuget\\packages\\",
+        "outputPath": "D:\\ETIL MONSTR\\School\\School.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mahboy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Kab-31-14\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

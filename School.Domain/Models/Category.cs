@@ -13,7 +13,6 @@ namespace School.Domain.Models
             
         public string Description { get; set; }
 
-
         public int PathImage { get; set; }
 
         public DateTime CreatedAt { get; set; }

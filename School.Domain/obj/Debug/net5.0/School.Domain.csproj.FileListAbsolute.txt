@@ -59,3 +59,16 @@ D:\School\School.Domain\obj\Debug\net5.0\School.Domain.dll
 D:\School\School.Domain\obj\Debug\net5.0\refint\School.Domain.dll
 D:\School\School.Domain\obj\Debug\net5.0\School.Domain.pdb
 D:\School\School.Domain\obj\Debug\net5.0\ref\School.Domain.dll
+D:\ETIL MONSTR\School\School.Domain\bin\Debug\net5.0\School.Domain.deps.json
+D:\ETIL MONSTR\School\School.Domain\bin\Debug\net5.0\School.Domain.dll
+D:\ETIL MONSTR\School\School.Domain\bin\Debug\net5.0\School.Domain.pdb
+D:\ETIL MONSTR\School\School.Domain\obj\Debug\net5.0\School.Domain.csproj.AssemblyReference.cache
+D:\ETIL MONSTR\School\School.Domain\obj\Debug\net5.0\School.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ETIL MONSTR\School\School.Domain\obj\Debug\net5.0\School.Domain.AssemblyInfoInputs.cache
+D:\ETIL MONSTR\School\School.Domain\obj\Debug\net5.0\School.Domain.AssemblyInfo.cs
+D:\ETIL MONSTR\School\School.Domain\obj\Debug\net5.0\School.Domain.csproj.CoreCompileInputs.cache
+D:\ETIL MONSTR\School\School.Domain\obj\Debug\net5.0\School.Domain.sourcelink.json
+D:\ETIL MONSTR\School\School.Domain\obj\Debug\net5.0\School.Domain.dll
+D:\ETIL MONSTR\School\School.Domain\obj\Debug\net5.0\refint\School.Domain.dll
+D:\ETIL MONSTR\School\School.Domain\obj\Debug\net5.0\School.Domain.pdb
+D:\ETIL MONSTR\School\School.Domain\obj\Debug\net5.0\ref\School.Domain.dll

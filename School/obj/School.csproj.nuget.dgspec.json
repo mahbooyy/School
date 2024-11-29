@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\School\\School\\School.csproj": {}
+    "D:\\ETIL MONSTR\\School\\School\\School.csproj": {}
   },
   "projects": {
-    "D:\\School\\School.DAL\\School.DAL.csproj": {
+    "D:\\ETIL MONSTR\\School\\School.DAL\\School.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\School.DAL\\School.DAL.csproj",
+        "projectUniqueName": "D:\\ETIL MONSTR\\School\\School.DAL\\School.DAL.csproj",
         "projectName": "School.DAL",
-        "projectPath": "D:\\School\\School.DAL\\School.DAL.csproj",
-        "packagesPath": "C:\\Users\\mahboy\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\School.DAL\\obj\\",
+        "projectPath": "D:\\ETIL MONSTR\\School\\School.DAL\\School.DAL.csproj",
+        "packagesPath": "C:\\Users\\Kab-31-14\\.nuget\\packages\\",
+        "outputPath": "D:\\ETIL MONSTR\\School\\School.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mahboy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Kab-31-14\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -33,8 +29,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\School\\School.Domain\\School.Domain.csproj": {
-                "projectPath": "D:\\School\\School.Domain\\School.Domain.csproj"
+              "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj": {
+                "projectPath": "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj"
               }
             }
           }
@@ -81,25 +77,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\School\\School.Domain\\School.Domain.csproj": {
+    "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\School.Domain\\School.Domain.csproj",
+        "projectUniqueName": "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj",
         "projectName": "School.Domain",
-        "projectPath": "D:\\School\\School.Domain\\School.Domain.csproj",
-        "packagesPath": "C:\\Users\\mahboy\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\School.Domain\\obj\\",
+        "projectPath": "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj",
+        "packagesPath": "C:\\Users\\Kab-31-14\\.nuget\\packages\\",
+        "outputPath": "D:\\ETIL MONSTR\\School\\School.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mahboy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Kab-31-14\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,25 +148,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\School\\School.Service\\School.Service.csproj": {
+    "D:\\ETIL MONSTR\\School\\School.Service\\School.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\School.Service\\School.Service.csproj",
+        "projectUniqueName": "D:\\ETIL MONSTR\\School\\School.Service\\School.Service.csproj",
         "projectName": "School.Service",
-        "projectPath": "D:\\School\\School.Service\\School.Service.csproj",
-        "packagesPath": "C:\\Users\\mahboy\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\School.Service\\obj\\",
+        "projectPath": "D:\\ETIL MONSTR\\School\\School.Service\\School.Service.csproj",
+        "packagesPath": "C:\\Users\\Kab-31-14\\.nuget\\packages\\",
+        "outputPath": "D:\\ETIL MONSTR\\School\\School.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mahboy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Kab-31-14\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -189,11 +177,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\School\\School.DAL\\School.DAL.csproj": {
-                "projectPath": "D:\\School\\School.DAL\\School.DAL.csproj"
+              "D:\\ETIL MONSTR\\School\\School.DAL\\School.DAL.csproj": {
+                "projectPath": "D:\\ETIL MONSTR\\School\\School.DAL\\School.DAL.csproj"
               },
-              "D:\\School\\School.Domain\\School.Domain.csproj": {
-                "projectPath": "D:\\School\\School.Domain\\School.Domain.csproj"
+              "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj": {
+                "projectPath": "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj"
               }
             }
           }
@@ -238,25 +226,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\School\\School\\School.csproj": {
+    "D:\\ETIL MONSTR\\School\\School\\School.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School\\School\\School.csproj",
+        "projectUniqueName": "D:\\ETIL MONSTR\\School\\School\\School.csproj",
         "projectName": "School",
-        "projectPath": "D:\\School\\School\\School.csproj",
-        "packagesPath": "C:\\Users\\mahboy\\.nuget\\packages\\",
-        "outputPath": "D:\\School\\School\\obj\\",
+        "projectPath": "D:\\ETIL MONSTR\\School\\School\\School.csproj",
+        "packagesPath": "C:\\Users\\Kab-31-14\\.nuget\\packages\\",
+        "outputPath": "D:\\ETIL MONSTR\\School\\School\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mahboy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Kab-31-14\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -271,14 +255,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\School\\School.DAL\\School.DAL.csproj": {
-                "projectPath": "D:\\School\\School.DAL\\School.DAL.csproj"
+              "D:\\ETIL MONSTR\\School\\School.DAL\\School.DAL.csproj": {
+                "projectPath": "D:\\ETIL MONSTR\\School\\School.DAL\\School.DAL.csproj"
               },
-              "D:\\School\\School.Domain\\School.Domain.csproj": {
-                "projectPath": "D:\\School\\School.Domain\\School.Domain.csproj"
+              "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj": {
+                "projectPath": "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj"
               },
-              "D:\\School\\School.Service\\School.Service.csproj": {
-                "projectPath": "D:\\School\\School.Service\\School.Service.csproj"
+              "D:\\ETIL MONSTR\\School\\School.Service\\School.Service.csproj": {
+                "projectPath": "D:\\ETIL MONSTR\\School\\School.Service\\School.Service.csproj"
               }
             }
           }
@@ -332,7 +316,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

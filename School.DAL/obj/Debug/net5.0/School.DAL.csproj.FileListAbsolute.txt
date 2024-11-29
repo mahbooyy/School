@@ -53,3 +53,22 @@ D:\School\School.DAL\obj\Debug\net5.0\refint\School.DAL.dll
 D:\School\School.DAL\obj\Debug\net5.0\School.DAL.pdb
 D:\School\School.DAL\obj\Debug\net5.0\School.DAL.genruntimeconfig.cache
 D:\School\School.DAL\obj\Debug\net5.0\ref\School.DAL.dll
+D:\ETIL MONSTR\School\School.DAL\bin\Debug\net5.0\School.DAL.deps.json
+D:\ETIL MONSTR\School\School.DAL\bin\Debug\net5.0\School.DAL.runtimeconfig.json
+D:\ETIL MONSTR\School\School.DAL\bin\Debug\net5.0\School.DAL.runtimeconfig.dev.json
+D:\ETIL MONSTR\School\School.DAL\bin\Debug\net5.0\School.DAL.dll
+D:\ETIL MONSTR\School\School.DAL\bin\Debug\net5.0\School.DAL.pdb
+D:\ETIL MONSTR\School\School.DAL\bin\Debug\net5.0\School.Domain.dll
+D:\ETIL MONSTR\School\School.DAL\bin\Debug\net5.0\School.Domain.pdb
+D:\ETIL MONSTR\School\School.DAL\obj\Debug\net5.0\School.DAL.csproj.AssemblyReference.cache
+D:\ETIL MONSTR\School\School.DAL\obj\Debug\net5.0\School.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ETIL MONSTR\School\School.DAL\obj\Debug\net5.0\School.DAL.AssemblyInfoInputs.cache
+D:\ETIL MONSTR\School\School.DAL\obj\Debug\net5.0\School.DAL.AssemblyInfo.cs
+D:\ETIL MONSTR\School\School.DAL\obj\Debug\net5.0\School.DAL.csproj.CoreCompileInputs.cache
+D:\ETIL MONSTR\School\School.DAL\obj\Debug\net5.0\School.DAL.sourcelink.json
+D:\ETIL MONSTR\School\School.DAL\obj\Debug\net5.0\School.DAL.csproj.Up2Date
+D:\ETIL MONSTR\School\School.DAL\obj\Debug\net5.0\School.DAL.dll
+D:\ETIL MONSTR\School\School.DAL\obj\Debug\net5.0\refint\School.DAL.dll
+D:\ETIL MONSTR\School\School.DAL\obj\Debug\net5.0\School.DAL.pdb
+D:\ETIL MONSTR\School\School.DAL\obj\Debug\net5.0\School.DAL.genruntimeconfig.cache
+D:\ETIL MONSTR\School\School.DAL\obj\Debug\net5.0\ref\School.DAL.dll
