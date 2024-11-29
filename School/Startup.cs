@@ -29,22 +29,23 @@ namespace School
             services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
             services.InitializeRepositories();
             services.InitializeServies();
-            services.InitializeRepositories();
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-            .AddCookie(options =>
-            {
-                options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Home/Login");
-                options.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Home/Login");
-            })
-            .AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
-            {
-                options.ClientId = Configuration.GetSection("GoogleKeys:ClientId").Value;
-                options.ClientSecret = Configuration.GetSection("GoogleKeys:ClientSecret").Value;
-                options.Scope.Add("profile");
 
-                options.ClaimActions.MapJsonKey("picture", "picture"); // ßâíîå ìàïïèðîâàíèå picture 
-            });
+            // Настройки аутентификации
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Home/Login");
+                    options.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Home/Login");
+                })
+                .AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
+                {
+                    options.ClientId = Configuration["GoogleKeys:ClientId"];  // Пример пути к ClientId
+                    options.ClientSecret = Configuration["GoogleKeys:ClientSecret"];
+                    options.Scope.Add("profile");
+                    options.ClaimActions.MapJsonKey("picture", "picture");
+                });
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

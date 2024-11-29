@@ -608,21 +608,9 @@
         }
       },
       "System.Buffers/4.5.1": {},
-      "System.Collections.Immutable/5.0.0": {
-        "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
-        }
-      },
-      "System.ComponentModel.Annotations/5.0.0": {
-        "compile": {
-          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
-        }
-      },
-      "System.Diagnostics.DiagnosticSource/5.0.0": {
-        "compile": {
-          "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {}
-        }
-      },
+      "System.Collections.Immutable/5.0.0": {},
+      "System.ComponentModel.Annotations/5.0.0": {},
+      "System.Diagnostics.DiagnosticSource/5.0.0": {},
       "System.Formats.Asn1/8.0.1": {
         "dependencies": {
           "System.Buffers": "4.5.1",
@@ -692,7 +680,10 @@
           "School.Domain": "1.0.0"
         },
         "runtime": {
-          "School.DAL.dll": {}
+          "School.DAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "School.DAL.dll": {}
@@ -704,7 +695,10 @@
           "starkbank-ecdsa": "1.3.3"
         },
         "runtime": {
-          "School.Domain.dll": {}
+          "School.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "School.Domain.dll": {}
@@ -718,7 +712,10 @@
           "School.Domain": "1.0.0"
         },
         "runtime": {
-          "School.Service.dll": {}
+          "School.Service.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "compile": {
           "School.Service.dll": {}
