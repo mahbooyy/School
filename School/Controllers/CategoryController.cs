@@ -10,6 +10,7 @@ namespace School.Controllers
 {
     public class CategoryController : Controller
     {
+
         private readonly ICategoryProductsService _CategoryProductsService;
         private IMapper _mapper {  get; set; }
 

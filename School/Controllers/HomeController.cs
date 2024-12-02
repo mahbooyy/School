@@ -28,14 +28,14 @@ namespace School.Controllers
             {
                 return View();
             }
-
-            public IActionResult Privacy()
+        public IActionResult Privacy()
             {
                 return View();
             }
-            public IActionResult CategoryProducts()
+
+
+        public IActionResult ContactsInformation()
         {
-            // Логика для действия
             return View();
         }
 

@@ -35,7 +35,7 @@ namespace School.Service.Realizations
             {
                 // Получаем данные из хранилища и сортируем
                 var categoryDb = _categoryProductsStorage.GetAll().OrderBy(p => p.CreatedAt).ToList();
-
+                
                 // Если ничего не найдено
                 if (categoryDb.Count == 0)
                 {

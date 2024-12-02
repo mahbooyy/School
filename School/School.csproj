@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Home\Contacts\" />
     <Folder Include="wwwroot\ImageUser\" />
   </ItemGroup>
 

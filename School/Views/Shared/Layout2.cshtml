@@ -1,0 +1,48 @@
+﻿﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Карандаш </title>
+    <link rel="stylesheet" href="~/css/mustafa.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/media_style.css" asp-append-version="true" />
+
+</head>
+<body>
+    <div id="header-top">
+        <div id="hamburger" class="icon">&#9776;</div>
+    </div>
+    <div id="side-menu" class="side-menu">
+            <ul>
+                <li><a href="#home">Чертёжные принадлжености</a></li>
+                <li><a href="#contact">Письменные принадлежности</a></li>
+                <li><a href="#3">Товары для школы и учёбы</a></li>
+                <li><a href="#3">Бумажная продукция</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="header-bottom">
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Чертёжные принадлжености</a></li>
+                <li><a href="#contact">Письменные принадлежности</a></li>
+                <li><a href="#3">Товары для школы и учёбы</a></li>
+                <li><a href="#3">Бумажная продукция</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container-counties">
+        <div class="link-page">
+            <a href="/Home/SiteInformation">Главная</a>
+        </div>
+    </div>
+    <div class="container">
+@RenderBody()
+</div>
+<script src="~/js/shared_script.js" asp-append-version="true"></script>
+<script src="~/js/home_script.js" asp-append-version="true"></script>
+<script src="~/js/login_and_registration_script.js" asp-append-version="true"></script>
+<script src="~/js/chared_script.js" asp-append-version="true"></script>
+</body>
+</html>

@@ -331,3 +331,8 @@ D:\ETIL MONSTR\School\School\obj\Debug\net5.0\School.genruntimeconfig.cache
 D:\ETIL MONSTR\School\School\obj\Debug\net5.0\ref\School.dll
 D:\ETIL MONSTR\School\School\bin\Debug\net5.0\libman.json
 D:\ETIL MONSTR\School\School\obj\Debug\net5.0\Razor\Views\Category\CategoryProducts.cshtml.g.cs
+D:\tizul\School\School\bin\Debug\net5.0\libman.json
+D:\tizul\School\School\obj\Debug\net5.0\Razor\Views\Category\CategoryProducts.cshtml.g.cs
+D:\tizul\School\School\obj\Debug\net5.0\Razor\Views\Shared\Layout2.cshtml.g.cs
+D:\tizul\School\School\obj\Debug\net5.0\Razor\Views\Shared\Layout3.cshtml.g.cs
+D:\tizul\School\School\obj\Debug\net5.0\Razor\Views\Home\ContactsInformation.cshtml.g.cs

@@ -1,35 +1,9 @@
 ﻿@model List<School.Domain.ViewModels.LoginAndRegistration.CategoryProductsViewModel>
 
     @{
-        Layout = "_Layout";
+        Layout = "Layout2";
         ViewData["Title"] = "Категории";
     }
-
-
-<div id="side-menu" class="side-menu">
-    <div>
-        <ul>
-            <li><a href="#home">Чертёжные принадлжености</a></li>
-            <li><a href="#contact">Письменные принадлежности</a></li>
-            <li><a href="#3">Товары для школы и учёбы</a></li>
-            <li><a href="#3">Бумажная продукция</a></li>
-        </ul>
-    </div>
-    </div>
-    <div id="header-bottom">
-        <div class="menu">
-            <ul>
-                <li><a href="#home">Чертёжные принадлжености</a></li>
-                <li><a href="#contact">Письменные принадлежности</a></li>
-                <li><a href="#3">Товары для школы и учёбы</a></li>
-                <li><a href="#3">Бумажная продукция</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="container-counties">
-        <div class="link-page">
-            <a href="/Home/SiteInformation">Главная</a>
-        </div>
         <div class="grid-container">
             @if (Model != null)
             {
@@ -53,5 +27,4 @@
                 }
             }
         </div>
-    </div>
 
