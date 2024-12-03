@@ -1,0 +1,67 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Карандаш </title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/shared.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/media_style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/products.css" asp-append-version="true" />
+
+</head>
+<body>
+    <div id="header-top">
+        <div id="hamburger" class="icon">&#9776;</div>
+        <div class="logo">Карандаш</div>
+        <div class="button-header">
+        </div>
+    </div>
+    <div id="side-menu" class="side-menu">
+        <div>
+            <ul>
+                <li><a href="/Home/SiteInformation">Главная</a></li>
+                <li><a href="/Contacts/ContactsInformation">Контакты</a></li>
+                <li><a href="/Category/CategoryProducts">Категории</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="header-bottom">
+        <div class="menu">
+            <ul>
+                <li><a href="/Home/SiteInformation">Главная</a></li>
+                <li><a href="/Contacts/ContactsInformation">Контакты</a></li>
+                <li><a href="/Category/CategoryProducts">Категории</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+
+@RenderBody()
+</div>
+<footer>
+    <div class="footer-left">
+        <div class="logo">Карандаш</div>
+        <p>
+            В нашем магазине вы найдете все начиная от скрепки до школьного портфеля.
+        </p>
+        <div class="footer-Karandash">
+            &copy; 2024 — Карандаш - Tizul
+        </div>
+    </div>
+    <div class="footer-right">
+        <div class="footer-menu">
+            <ul>
+                <li><a href="/Home/SiteInformation">Главная</a></li>
+                <li><a href="/Contacts/ContactsInformation">Контакты</a></li>
+                <li><a href="/Category/CategoryProducts">Категории</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="~/js/shared_script.js" asp-append-version="true"></script>
+<script src="~/js/home_script.js" asp-append-version="true"></script>
+<script src="~/js/chared_script.js" asp-append-version="true"></script>
+</body>
+</html>

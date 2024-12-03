@@ -1,15 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace School.Domain.Models
+namespace School.Domain.ViewModels.LoginAndRegistration
 {
-    public class Products
+    public class ListOfProductsViewModel
     {
+        public List<ProductsForListOfProductsViewModel> Products { get; set; }
+        public Guid Id_Products { get; set; }
+    }
 
+    public class ProductsForListOfProductsViewModel
+    {
         public Guid Id { get; set; }
 
         public Guid Id_Category { get; set; }
@@ -22,6 +26,7 @@ namespace School.Domain.Models
 
         public DateTime CreatedAt { get; set; }
 
-        public string Opisanie { get; set; }
+       public string Opisanie { get; set; }
     }
+
 }

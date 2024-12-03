@@ -336,3 +336,5 @@ D:\tizul\School\School\obj\Debug\net5.0\Razor\Views\Category\CategoryProducts.cs
 D:\tizul\School\School\obj\Debug\net5.0\Razor\Views\Shared\Layout2.cshtml.g.cs
 D:\tizul\School\School\obj\Debug\net5.0\Razor\Views\Shared\Layout3.cshtml.g.cs
 D:\tizul\School\School\obj\Debug\net5.0\Razor\Views\Home\ContactsInformation.cshtml.g.cs
+D:\tizul\School\School\obj\Debug\net5.0\Razor\Views\Shared\Layout4.cshtml.g.cs
+D:\tizul\School\School\obj\Debug\net5.0\Razor\Views\Products\ListOfProducts.cshtml.g.cs

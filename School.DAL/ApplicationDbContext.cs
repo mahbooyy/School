@@ -18,7 +18,7 @@ namespace School.DAL
 
         public DbSet<PictureProductDb> PictureProductDb { get; set; }
 
-        public DbSet<ProductsDb> ProductDb { get; set; }
+        public DbSet<ProductsDb> ProductsDb { get; set; }
 
         public DbSet<RequestDb> RequestDb { get; set; }
 

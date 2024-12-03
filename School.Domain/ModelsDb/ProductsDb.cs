@@ -20,9 +20,9 @@ namespace School.Domain.ModelsDb
 
         public string Name { get; set; }
 
-        [Column("product")]
+        [Column("price")]
 
-        public decimal Product { get; set; }
+        public decimal Price { get; set; }
 
         [Column("pathImg")]
 
@@ -33,15 +33,15 @@ namespace School.Domain.ModelsDb
 
         public DateTime CreatedAt { get; set; }
 
-        [Column("price")]
+        [Column("opisanie")]
 
-        public decimal Price { get; set; }
+        public string Opisanie { get; set; }
 
         public OrdersDb OderDb { get; set; }
 
         public CategoryDb CategoryDb { get; set; }
 
-        public PictureProductDb PictureProduc { get; set; }
+        public PictureProductDb PictureProduct { get; set; }
 
     }
 }

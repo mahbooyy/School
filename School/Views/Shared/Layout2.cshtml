@@ -5,30 +5,35 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Карандаш </title>
-    <link rel="stylesheet" href="~/css/mustafa.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/shared.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/login_and_registration.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/media_style.css" asp-append-version="true" />
+
 
 </head>
 <body>
     <div id="header-top">
         <div id="hamburger" class="icon">&#9776;</div>
     </div>
-    <div id="side-menu" class="side-menu">
-            <ul>
-                <li><a href="#home">Чертёжные принадлжености</a></li>
-                <li><a href="#contact">Письменные принадлежности</a></li>
-                <li><a href="#3">Товары для школы и учёбы</a></li>
-                <li><a href="#3">Бумажная продукция</a></li>
-            </ul>
+   *<div id="side-menu" class="side-menu">
+        <ul>
+
+            <li><a href="@Url.Action("ListOfProducts", "Products")">Чертёжные принадлежности</a></li>
+            <li><a href="@Url.Action("ListOfProducts1", "Products")">Письменные принадлежности</a></li>
+            <li><a href="@Url.Action("ListOfProducts2", "Products")">Товары для школы и учёбы</a></li>
+            <li><a href="@Url.Action("ListOfProducts3", "Products")">Бумажная продукция</a></li>
+
+        </ul>
         </div>
-    </div>
     <div id="header-bottom">
         <div class="menu">
             <ul>
-                <li><a href="#home">Чертёжные принадлжености</a></li>
-                <li><a href="#contact">Письменные принадлежности</a></li>
-                <li><a href="#3">Товары для школы и учёбы</a></li>
-                <li><a href="#3">Бумажная продукция</a></li>
+                <li><a href="@Url.Action("ListOfProducts", "Products")">Чертёжные принадлежности</a></li>
+                <li><a href="@Url.Action("ListOfProducts1", "Products")">Письменные принадлежности</a></li>
+                <li><a href="@Url.Action("ListOfProducts2", "Products")">Товары для школы и учёбы</a></li>
+                <li><a href="@Url.Action("ListOfProducts3", "Products")">Бумажная продукция</a></li>
             </ul>
         </div>
     </div>

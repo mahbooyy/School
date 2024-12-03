@@ -8,8 +8,10 @@ namespace School.Domain.ViewModels.LoginAndRegistration
 {
     public class CategoryProductsViewModel
     {
-        public string Otziv { get; set; }
+        public string Name { get; set; }
 
-        public string PathImage { get; set; } 
+        public string PathImage { get; set; }
+
+        public Guid Id { get; set; }
     }
 }

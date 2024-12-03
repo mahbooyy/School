@@ -18,7 +18,7 @@ namespace School.Domain.Models
         public DateTime CreatedAt { get; set; }
 
         public Guid Id_Product { get; set; }
-        public string Otziv { get; set; }
+        public string Name { get; set; }
 
     }
 }

@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authentication;
+using School.Service.Interface1;
+using School.Service.Realizations;
+using School.DAL.Interface;
 
 namespace School
 {
@@ -27,10 +30,13 @@ namespace School
 
             services.AddControllersWithViews();
 
-            services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+
 
             services.InitializeRepositories();
             services.InitializeServices();
+  
 
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>
@@ -45,7 +51,7 @@ namespace School
                     options.ClientSecret = Configuration.GetSection("GoogleKeys:ClientSecret").Value;
                     options.Scope.Add("profile");
 
-                    options.ClaimActions.MapJsonKey("picture", "picture"); // ßâíîå ìàïïèðîâàíèå picture 
+                    options.ClaimActions.MapJsonKey("picture", "picture");
                 });
 
         }

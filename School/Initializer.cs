@@ -20,12 +20,15 @@ namespace School
         {
             services.AddScoped<IBaseStorage<UserDb>, UserStorage>();
             services.AddScoped<IBaseStorage<CategoryDb>, CategoryStorage>();
+            services.AddScoped<IBaseStorage<ProductsDb>, ProductsStorage>();
+           
         }
 
         public static void InitializeServices(this IServiceCollection services)
         {
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<ICategoryProductsService, CategoryProductsService>();
+            services.AddScoped<IProductsService, ProductsService>();
             services.AddControllersWithViews()
                     .AddDataAnnotationsLocalization()
                     .AddViewLocalization();

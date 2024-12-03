@@ -7,16 +7,16 @@
         <div class="grid-container">
             @if (Model != null)
             {
-                foreach (var item in Model)
+                @foreach (var item in Model)
                 {
-                    <div class="card-category">
+                    <div class="card-category" onclick="window.location.href = '@Url.Action("ListOfProducts","Products", new {Id = item.Id})'">
                         <img src="@item.PathImage "alt="@item.Otziv" class="card-image" />
                         <div class="card-overlay">
                             <div class="card-title">@item.Otziv</div>
                         </div>
                     </div>
                 }
-                foreach (var item in Model)
+                @foreach (var item in Model)
                 {
                     <div class="card-category">
                         <img src="@item.PathImage " alt="@item.Otziv" class="card-image" />

@@ -30,8 +30,8 @@ namespace School.Domain.ModelsDb
 
         public Guid Id_Product { get; set; }
 
-        [Column("otziv")]
-        public string Otziv { get; set; }
+        [Column("name")]
+        public string Name { get; set; }
 
         public ICollection<ProductsDb> Products { get; set; }
     }

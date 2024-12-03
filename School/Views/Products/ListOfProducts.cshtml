@@ -1,0 +1,38 @@
+﻿@model School.Domain.ViewModels.LoginAndRegistration.ListOfProductsViewModel
+@{
+    Layout = "Layout4";
+    ViewData["Title"] = "Список туров";
+}
+<div class="container-list-tours">
+    <div class="link-page">
+        <a href="/Home/SiteInformation">Главная</a> >
+        <a href="/Category/CategoryProducts">Категории</a> >
+        Товары
+    </div>
+    <div class="container-tours">
+        <div class="list-products">
+            @foreach (var item in Model.Products)
+            {
+                <div class="tour-item">
+                    <img src="@item.PathImage" alt="Товар" class="item-tour-img" />
+                    <div class="item-info">
+                        <h2>@item.Name</h2>
+                        <p>@item.Opisanie</p>
+                    </div>
+                    <table>
+                        <tbody>
+
+                            <tr>
+                                <td><strong>@item.Price руб</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <button>Купить</button>
+                    <input asp-for="@item.Id" value="@item.Id" style="display: none" />
+                    <input asp-for="@item.Id_Category" value="@item.Id_Category" style="display: none" />
+
+                </div>
+            }
+        </div>
+    </div>
+</div>

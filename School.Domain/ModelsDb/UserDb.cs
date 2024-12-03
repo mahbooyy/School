@@ -11,7 +11,7 @@ using School.Domain.Enum;
 namespace School.Domain.ModelsDb
 {
     [Table("user")]
-        public class UserDb
+    public class UserDb
     {
         [Column("id")]
         public Guid Id { get; set; }
