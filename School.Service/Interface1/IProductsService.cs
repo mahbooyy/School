@@ -11,5 +11,11 @@ namespace School.Service.Interface1
     public interface IProductsService
     {
         BaseResponse<List<Products>> GetALLProductsByCategory(Guid Id);
+
+        BaseResponse<List<Products>> GetProductsByFilter(ProductsFilter filter);
+
+        BaseResponse<List<Products>> GetProductsById(Guid Id);
+
+        BaseResponse<List<PictureProduct>> GetPictureProductById(Guid Id);
     }
 }

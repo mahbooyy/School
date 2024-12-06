@@ -17,6 +17,7 @@ using System.Net.Http;
 using System.IO;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Hosting;
+using System.Collections.Generic;
 
 namespace School.Controllers
 {
@@ -147,7 +148,7 @@ namespace School.Controllers
 
                 return RedirectToAction("SiteInformation", "Home");
             }
-
+      
             public async Task AuthenticationGoogle(string returnUrl = "/")
             {
                 await HttpContext.ChallengeAsync(GoogleDefaults.AuthenticationScheme,

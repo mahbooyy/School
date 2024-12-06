@@ -1,232 +1,287 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ETIL MONSTR\\School\\",
+  "WorkspaceRootPath": "D:\\313\\School\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|d:\\313\\school\\school.service\\realizations\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|solutionrelative:school.service\\realizations\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\views\\category\\categoryproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\category\\categoryproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\views\\products\\listofproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\products\\listofproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\views\\shared\\_confirmemailpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\shared\\_confirmemailpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\views\\home\\siteinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\home\\siteinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|d:\\etil monstr\\school\\school.service\\realizations\\categoryproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|solutionrelative:school.service\\realizations\\categoryproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|d:\\etil monstr\\school\\school.dal\\storage\\categorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\storage\\categorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|d:\\etil monstr\\school\\school.service\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\views\\category\\categoryproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\category\\categoryproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\models\\pictureproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\models\\pictureproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\viewmodels\\loginandregistration\\listofproductsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\listofproductsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\viewmodels\\loginandregistration\\productspageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\productspageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|d:\\313\\school\\school.service\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|solutionrelative:school.service\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\viewmodels\\loginandregistration\\categoryproductsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\categoryproductsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|d:\\313\\school\\school.service\\realizations\\categoryproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|solutionrelative:school.service\\realizations\\categoryproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|d:\\313\\school\\school.service\\interface1\\iproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|solutionrelative:school.service\\interface1\\iproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\models\\productsfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\models\\productsfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\views\\products\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\products\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|d:\\etil monstr\\school\\school.service\\interface1\\icategoryproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|solutionrelative:school.service\\interface1\\icategoryproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|d:\\etil monstr\\school\\school.service\\realizations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|solutionrelative:school.service\\realizations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ETIL MONSTR\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Category\\CategoryProducts.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:School\\obj\\Debug\\net5.0\\Razor\\Views\\Category\\CategoryProducts.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\validators\\categoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\validators\\categoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\wwwroot\\css\\category.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\wwwroot\\css\\category.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\initializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|d:\\etil monstr\\school\\school.service\\interface1\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|solutionrelative:school.service\\interface1\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\helpersdomain\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\helpersdomain\\enumextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\viewmodels\\loginandregistration\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\wwwroot\\js\\search.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\wwwroot\\js\\search.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\viewmodels\\loginandregistration\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|d:\\313\\school\\school.service\\realizations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|solutionrelative:school.service\\realizations\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\wwwroot\\js\\shared_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\wwwroot\\js\\shared_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\viewmodels\\loginandregistration\\confirmemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\confirmemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\wwwroot\\js\\productsfetch.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\wwwroot\\js\\productsfetch.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\views\\shared\\_loginregistrationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\shared\\_loginregistrationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\wwwroot\\js\\filter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\wwwroot\\js\\filter.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\wwwroot\\css\\filter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\wwwroot\\css\\filter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\viewmodels\\loginandregistration\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\viewmodels\\loginandregistration\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\viewmodels\\loginandregistration\\categoryproductsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\categoryproductsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\views\\shared\\_confirmemailpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\shared\\_confirmemailpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\views\\home\\siteinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\home\\siteinformation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|d:\\313\\school\\school.dal\\storage\\categorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\storage\\categorystorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|d:\\313\\school\\school.service\\interface1\\icategoryproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|solutionrelative:school.service\\interface1\\icategoryproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\313\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Category\\CategoryProducts.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:School\\obj\\Debug\\net5.0\\Razor\\Views\\Category\\CategoryProducts.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\validators\\categoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\validators\\categoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|d:\\313\\school\\school.service\\interface1\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0CE4D2-C40A-4813-9DDA-6E03A54E7BF4}|School.Service\\School.Service.csproj|solutionrelative:school.service\\interface1\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\viewmodels\\loginandregistration\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\viewmodels\\loginandregistration\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\wwwroot\\js\\shared_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\wwwroot\\js\\shared_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\views\\shared\\_loginregistrationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\views\\shared\\_loginregistrationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mahboy\\AppData\\Roaming\\Microsoft\\UserSecrets\\e1a53de0-47de-49d9-8694-fabc2493674f\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\viewmodels\\loginandregistration\\confirmemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\viewmodels\\loginandregistration\\confirmemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ETIL MONSTR\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Shared\\_ConfirmEmailPartial.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\313\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Shared\\_ConfirmEmailPartial.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:School\\obj\\Debug\\net5.0\\Razor\\Views\\Shared\\_ConfirmEmailPartial.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\enum\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\enum\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\enum\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\school.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\school.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\school.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\enum\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\enum\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\enum\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\wwwroot\\css\\login_and_registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\wwwroot\\css\\login_and_registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\wwwroot\\css\\login_and_registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\validators\\productsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\validators\\productsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\validators\\productsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\validators\\pictureproductsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\validators\\pictureproductsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\validators\\pictureproductsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\validators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\validators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\validators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\validators\\requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\validators\\requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\validators\\requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\modelsdb\\ordersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\modelsdb\\ordersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\modelsdb\\ordersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\modelsdb\\requestdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\modelsdb\\requestdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\modelsdb\\requestdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\modelsdb\\productsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\modelsdb\\productsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\modelsdb\\productsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\modelsdb\\categorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\modelsdb\\categorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\modelsdb\\categorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\modelsdb\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\modelsdb\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\modelsdb\\userdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\tizul\\School\\School.DAL\\Migrations\\20241115105759_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:2:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|d:\\etil monstr\\school\\school.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:2:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|d:\\313\\school\\school.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:2:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\etil monstr\\school\\school.domain\\modelsdb\\pictureproductdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|d:\\313\\school\\school.domain\\modelsdb\\pictureproductdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21C08E3-0BFE-4F2F-AF3C-649D83955251}|School.Domain\\School.Domain.csproj|solutionrelative:school.domain\\modelsdb\\pictureproductdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:1:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|d:\\etil monstr\\school\\school.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:1:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|d:\\313\\school\\school.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:1:0:{A34D0419-6F75-47FC-94FA-6F5CC03C3BA9}|School.DAL\\School.DAL.csproj|solutionrelative:school.dal\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\school.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\school.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\school.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\etil monstr\\school\\school\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|d:\\313\\school\\school\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EE311FF1-25E7-405D-AA90-82C88FC2748F}|School\\School.csproj|solutionrelative:school\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ETIL MONSTR\\School\\School\\wwwroot\\css\\category.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -236,54 +291,236 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsService.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Service\\Realizations\\ProductsService.cs",
+              "RelativeDocumentMoniker": "School.Service\\Realizations\\ProductsService.cs",
+              "ToolTip": "D:\\313\\School\\School.Service\\Realizations\\ProductsService.cs",
+              "RelativeToolTip": "School.Service\\Realizations\\ProductsService.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAswMYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:21:06.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductsPageViewModel.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ProductsPageViewModel.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ViewModels\\LoginAndRegistration\\ProductsPageViewModel.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ProductsPageViewModel.cs",
+              "RelativeToolTip": "School.Domain\\ViewModels\\LoginAndRegistration\\ProductsPageViewModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:03:11.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListOfProductsViewModel.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ListOfProductsViewModel.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ViewModels\\LoginAndRegistration\\ListOfProductsViewModel.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ListOfProductsViewModel.cs",
+              "RelativeToolTip": "School.Domain\\ViewModels\\LoginAndRegistration\\ListOfProductsViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:22:12.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PictureProduct.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Models\\PictureProduct.cs",
+              "RelativeDocumentMoniker": "School.Domain\\Models\\PictureProduct.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Models\\PictureProduct.cs",
+              "RelativeToolTip": "School.Domain\\Models\\PictureProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:04:11.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Products.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "School.Domain\\Models\\Products.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Models\\Products.cs",
+              "RelativeToolTip": "School.Domain\\Models\\Products.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:30:16.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ListOfProducts.cshtml",
+              "DocumentMoniker": "D:\\313\\School\\School\\Views\\Products\\ListOfProducts.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Products\\ListOfProducts.cshtml",
+              "ToolTip": "D:\\313\\School\\School\\Views\\Products\\ListOfProducts.cshtml",
+              "RelativeToolTip": "School\\Views\\Products\\ListOfProducts.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAADgv0IAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T07:25:34.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CategoryProducts.cshtml",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\Views\\Category\\CategoryProducts.cshtml",
+              "DocumentMoniker": "D:\\313\\School\\School\\Views\\Category\\CategoryProducts.cshtml",
               "RelativeDocumentMoniker": "School\\Views\\Category\\CategoryProducts.cshtml",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\Views\\Category\\CategoryProducts.cshtml",
+              "ToolTip": "D:\\313\\School\\School\\Views\\Category\\CategoryProducts.cshtml",
               "RelativeToolTip": "School\\Views\\Category\\CategoryProducts.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-29T08:16:10.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "School.Domain\\Models\\Category.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\Models\\Category.cs",
-              "RelativeToolTip": "School.Domain\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAcAAAA",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\313\\School\\School\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "School\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\313\\School\\School\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "School\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAL4AAAAAAAAAAAAcwJYAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T09:21:46.529Z",
+              "WhenOpened": "2024-11-25T09:05:12.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\313\\School\\School\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "School\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\313\\School\\School\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "School\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAArwDEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T10:18:12.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AppMappingProfile.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Service\\AppMappingProfile.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Service\\AppMappingProfile.cs",
               "RelativeDocumentMoniker": "School.Service\\AppMappingProfile.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Service\\AppMappingProfile.cs",
+              "ToolTip": "D:\\313\\School\\School.Service\\AppMappingProfile.cs",
               "RelativeToolTip": "School.Service\\AppMappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T09:32:57.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "CategoryProductsService.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Service\\Realizations\\CategoryProductsService.cs",
+              "RelativeDocumentMoniker": "School.Service\\Realizations\\CategoryProductsService.cs",
+              "ToolTip": "D:\\313\\School\\School.Service\\Realizations\\CategoryProductsService.cs",
+              "RelativeToolTip": "School.Service\\Realizations\\CategoryProductsService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA7wEAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:26:37.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductsService.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Service\\Interface1\\IProductsService.cs",
+              "RelativeDocumentMoniker": "School.Service\\Interface1\\IProductsService.cs",
+              "ToolTip": "D:\\313\\School\\School.Service\\Interface1\\IProductsService.cs",
+              "RelativeToolTip": "School.Service\\Interface1\\IProductsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:20:41.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductsFilter.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Models\\ProductsFilter.cs",
+              "RelativeDocumentMoniker": "School.Domain\\Models\\ProductsFilter.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Models\\ProductsFilter.cs",
+              "RelativeToolTip": "School.Domain\\Models\\ProductsFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T08:13:46.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "D:\\313\\School\\School\\Views\\Products\\Products.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Products\\Products.cshtml",
+              "ToolTip": "D:\\313\\School\\School\\Views\\Products\\Products.cshtml",
+              "RelativeToolTip": "School\\Views\\Products\\Products.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAADgvzcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T09:35:32.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Initializer.cs",
+              "DocumentMoniker": "D:\\313\\School\\School\\Initializer.cs",
+              "RelativeDocumentMoniker": "School\\Initializer.cs",
+              "ToolTip": "D:\\313\\School\\School\\Initializer.cs",
+              "RelativeToolTip": "School\\Initializer.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAWwCEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:07:00.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EnumExtensions.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\HelpersDomain\\EnumExtensions.cs",
+              "RelativeDocumentMoniker": "School.Domain\\HelpersDomain\\EnumExtensions.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\HelpersDomain\\EnumExtensions.cs",
+              "RelativeToolTip": "School.Domain\\HelpersDomain\\EnumExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T09:42:32.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "search.js",
+              "DocumentMoniker": "D:\\313\\School\\School\\wwwroot\\js\\search.js",
+              "RelativeDocumentMoniker": "School\\wwwroot\\js\\search.js",
+              "ToolTip": "D:\\313\\School\\School\\wwwroot\\js\\search.js",
+              "RelativeToolTip": "School\\wwwroot\\js\\search.js",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwCoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-06T09:48:43.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\Controllers\\CategoryController.cs",
+              "DocumentMoniker": "D:\\313\\School\\School\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "School\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\313\\School\\School\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "School\\Controllers\\CategoryController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwB0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -292,102 +529,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SiteInformation.cshtml",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\Views\\Home\\SiteInformation.cshtml",
-              "RelativeDocumentMoniker": "School\\Views\\Home\\SiteInformation.cshtml",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\Views\\Home\\SiteInformation.cshtml",
-              "RelativeToolTip": "School\\Views\\Home\\SiteInformation.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADEAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T08:21:09.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoryProductsService.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Service\\Realizations\\CategoryProductsService.cs",
-              "RelativeDocumentMoniker": "School.Service\\Realizations\\CategoryProductsService.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Service\\Realizations\\CategoryProductsService.cs",
-              "RelativeToolTip": "School.Service\\Realizations\\CategoryProductsService.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAUwEAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:26:37.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryStorage.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.DAL\\Storage\\CategoryStorage.cs",
-              "RelativeDocumentMoniker": "School.DAL\\Storage\\CategoryStorage.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.DAL\\Storage\\CategoryStorage.cs",
-              "RelativeToolTip": "School.DAL\\Storage\\CategoryStorage.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAUwCgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T09:10:07.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "School\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "School\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T08:18:35.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ConfirmEmailPartial.cshtml",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
-              "RelativeDocumentMoniker": "School\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
-              "RelativeToolTip": "School\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-25T09:18:26.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CategoryProductsViewModel.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\CategoryProductsViewModel.cs",
-              "RelativeDocumentMoniker": "School.Domain\\ViewModels\\LoginAndRegistration\\CategoryProductsViewModel.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\CategoryProductsViewModel.cs",
-              "RelativeToolTip": "School.Domain\\ViewModels\\LoginAndRegistration\\CategoryProductsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:39:17.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "School\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "School\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAywDYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T09:05:12.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "AccountService.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Service\\Realizations\\AccountService.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Service\\Realizations\\AccountService.cs",
               "RelativeDocumentMoniker": "School.Service\\Realizations\\AccountService.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Service\\Realizations\\AccountService.cs",
+              "ToolTip": "D:\\313\\School\\School.Service\\Realizations\\AccountService.cs",
               "RelativeToolTip": "School.Service\\Realizations\\AccountService.cs",
               "ViewState": "AQIAAPAAAAAAAAAAAAAUwAUBAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -396,50 +542,186 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
+              "Title": "ConfirmEmailViewModel.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
+              "RelativeToolTip": "School.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:31:03.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "productsfetch.js",
+              "DocumentMoniker": "D:\\313\\School\\School\\wwwroot\\js\\productsfetch.js",
+              "RelativeDocumentMoniker": "School\\wwwroot\\js\\productsfetch.js",
+              "ToolTip": "D:\\313\\School\\School\\wwwroot\\js\\productsfetch.js",
+              "RelativeToolTip": "School\\wwwroot\\js\\productsfetch.js",
+              "ViewState": "AQIAADYAAAAAAAAAAADwv1IAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-06T08:15:22.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "filter.js",
+              "DocumentMoniker": "D:\\313\\School\\School\\wwwroot\\js\\filter.js",
+              "RelativeDocumentMoniker": "School\\wwwroot\\js\\filter.js",
+              "ToolTip": "D:\\313\\School\\School\\wwwroot\\js\\filter.js",
+              "RelativeToolTip": "School\\wwwroot\\js\\filter.js",
+              "ViewState": "AQIAAHAAAAAAAAAAAADwv4UAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-06T07:37:31.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "filter.css",
+              "DocumentMoniker": "D:\\313\\School\\School\\wwwroot\\css\\filter.css",
+              "RelativeDocumentMoniker": "School\\wwwroot\\css\\filter.css",
+              "ToolTip": "D:\\313\\School\\School\\wwwroot\\css\\filter.css",
+              "RelativeToolTip": "School\\wwwroot\\css\\filter.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-06T07:35:51.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoryProductsViewModel.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\CategoryProductsViewModel.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ViewModels\\LoginAndRegistration\\CategoryProductsViewModel.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\CategoryProductsViewModel.cs",
+              "RelativeToolTip": "School.Domain\\ViewModels\\LoginAndRegistration\\CategoryProductsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:39:17.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "School.Domain\\ViewModels\\LoginAndRegistration\\ErrorViewModel.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ErrorViewModel.cs",
+              "RelativeToolTip": "School.Domain\\ViewModels\\LoginAndRegistration\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:19:45.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SiteInformation.cshtml",
+              "DocumentMoniker": "D:\\313\\School\\School\\Views\\Home\\SiteInformation.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Home\\SiteInformation.cshtml",
+              "ToolTip": "D:\\313\\School\\School\\Views\\Home\\SiteInformation.cshtml",
+              "RelativeToolTip": "School\\Views\\Home\\SiteInformation.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T08:21:09.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "School.Domain\\Models\\Category.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Models\\Category.cs",
+              "RelativeToolTip": "School.Domain\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:21:46.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoryStorage.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.DAL\\Storage\\CategoryStorage.cs",
+              "RelativeDocumentMoniker": "School.DAL\\Storage\\CategoryStorage.cs",
+              "ToolTip": "D:\\313\\School\\School.DAL\\Storage\\CategoryStorage.cs",
+              "RelativeToolTip": "School.DAL\\Storage\\CategoryStorage.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAUwCgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T09:10:07.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\313\\School\\School\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\313\\School\\School\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "School\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-29T08:18:35.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ConfirmEmailPartial.cshtml",
+              "DocumentMoniker": "D:\\313\\School\\School\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
+              "RelativeDocumentMoniker": "School\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
+              "ToolTip": "D:\\313\\School\\School\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
+              "RelativeToolTip": "School\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T09:18:26.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\Views\\Index.cshtml",
+              "DocumentMoniker": "D:\\313\\School\\School\\Views\\Index.cshtml",
               "RelativeDocumentMoniker": "School\\Views\\Index.cshtml",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\Views\\Index.cshtml",
+              "ToolTip": "D:\\313\\School\\School\\Views\\Index.cshtml",
               "RelativeToolTip": "School\\Views\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T10:16:29.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T10:16:29.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 30,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\313\\School\\School\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "School\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\313\\School\\School\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "School\\Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T10:16:31.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T10:16:31.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 32,
               "Title": "ICategoryProductsService.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Service\\Interface1\\ICategoryProductsService.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Service\\Interface1\\ICategoryProductsService.cs",
               "RelativeDocumentMoniker": "School.Service\\Interface1\\ICategoryProductsService.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Service\\Interface1\\ICategoryProductsService.cs",
+              "ToolTip": "D:\\313\\School\\School.Service\\Interface1\\ICategoryProductsService.cs",
               "RelativeToolTip": "School.Service\\Interface1\\ICategoryProductsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:23:23.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T08:23:23.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 33,
               "Title": "CategoryProducts.cshtml.g.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Category\\CategoryProducts.cshtml.g.cs",
+              "DocumentMoniker": "D:\\313\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Category\\CategoryProducts.cshtml.g.cs",
               "RelativeDocumentMoniker": "School\\obj\\Debug\\net5.0\\Razor\\Views\\Category\\CategoryProducts.cshtml.g.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Category\\CategoryProducts.cshtml.g.cs",
+              "ToolTip": "D:\\313\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Category\\CategoryProducts.cshtml.g.cs",
               "RelativeToolTip": "School\\obj\\Debug\\net5.0\\Razor\\Views\\Category\\CategoryProducts.cshtml.g.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAABkAAACyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -447,11 +729,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 35,
               "Title": "CategoryValidator.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\Validators\\CategoryValidator.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Validators\\CategoryValidator.cs",
               "RelativeDocumentMoniker": "School.Domain\\Validators\\CategoryValidator.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\Validators\\CategoryValidator.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Validators\\CategoryValidator.cs",
               "RelativeToolTip": "School.Domain\\Validators\\CategoryValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -459,11 +741,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 34,
               "Title": "Startup.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\Startup.cs",
+              "DocumentMoniker": "D:\\313\\School\\School\\Startup.cs",
               "RelativeDocumentMoniker": "School\\Startup.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\Startup.cs",
+              "ToolTip": "D:\\313\\School\\School\\Startup.cs",
               "RelativeToolTip": "School\\Startup.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAADgvx8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -471,35 +753,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 70,
               "Title": "category.css",
               "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\wwwroot\\css\\category.css",
-              "RelativeDocumentMoniker": "School\\wwwroot\\css\\category.css",
+              "RelativeDocumentMoniker": "..\\..\\ETIL MONSTR\\School\\School\\wwwroot\\css\\category.css",
               "ToolTip": "D:\\ETIL MONSTR\\School\\School\\wwwroot\\css\\category.css",
-              "RelativeToolTip": "School\\wwwroot\\css\\category.css",
+              "RelativeToolTip": "..\\..\\ETIL MONSTR\\School\\School\\wwwroot\\css\\category.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-29T09:21:12.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Initializer.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\Initializer.cs",
-              "RelativeDocumentMoniker": "School\\Initializer.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\Initializer.cs",
-              "RelativeToolTip": "School\\Initializer.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAswCMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T09:07:00.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 36,
               "Title": "IAccountService.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Service\\Interface1\\IAccountService.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Service\\Interface1\\IAccountService.cs",
               "RelativeDocumentMoniker": "School.Service\\Interface1\\IAccountService.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Service\\Interface1\\IAccountService.cs",
+              "ToolTip": "D:\\313\\School\\School.Service\\Interface1\\IAccountService.cs",
               "RelativeToolTip": "School.Service\\Interface1\\IAccountService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -507,11 +777,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 37,
               "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "School.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
               "RelativeToolTip": "School.Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -519,11 +789,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 38,
               "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "School.Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
               "RelativeToolTip": "School.Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -531,11 +801,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 39,
               "Title": "shared.css",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\wwwroot\\css\\shared.css",
+              "DocumentMoniker": "D:\\313\\School\\School\\wwwroot\\css\\shared.css",
               "RelativeDocumentMoniker": "School\\wwwroot\\css\\shared.css",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\wwwroot\\css\\shared.css",
+              "ToolTip": "D:\\313\\School\\School\\wwwroot\\css\\shared.css",
               "RelativeToolTip": "School\\wwwroot\\css\\shared.css",
               "ViewState": "AQIAANIAAAAAAAAAAAAAAOkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -543,11 +813,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 44,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\Program.cs",
+              "DocumentMoniker": "D:\\313\\School\\School\\Program.cs",
               "RelativeDocumentMoniker": "School\\Program.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\Program.cs",
+              "ToolTip": "D:\\313\\School\\School\\Program.cs",
               "RelativeToolTip": "School\\Program.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -555,11 +825,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 41,
               "Title": "login_and_registration_script.js",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\wwwroot\\js\\login_and_registration_script.js",
+              "DocumentMoniker": "D:\\313\\School\\School\\wwwroot\\js\\login_and_registration_script.js",
               "RelativeDocumentMoniker": "School\\wwwroot\\js\\login_and_registration_script.js",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\wwwroot\\js\\login_and_registration_script.js",
+              "ToolTip": "D:\\313\\School\\School\\wwwroot\\js\\login_and_registration_script.js",
               "RelativeToolTip": "School\\wwwroot\\js\\login_and_registration_script.js",
               "ViewState": "AQIAAFAAAAAAAAAAAAAuwMEAAAB6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -567,11 +837,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 45,
               "Title": "additional-methods.js",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "DocumentMoniker": "D:\\313\\School\\School\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
               "RelativeDocumentMoniker": "School\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "D:\\313\\School\\School\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
               "RelativeToolTip": "School\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
               "ViewState": "AgIAAOEAAAAAAAAAAAAiwPAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -579,11 +849,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 40,
               "Title": "shared_script.js",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\wwwroot\\js\\shared_script.js",
+              "DocumentMoniker": "D:\\313\\School\\School\\wwwroot\\js\\shared_script.js",
               "RelativeDocumentMoniker": "School\\wwwroot\\js\\shared_script.js",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\wwwroot\\js\\shared_script.js",
+              "ToolTip": "D:\\313\\School\\School\\wwwroot\\js\\shared_script.js",
               "RelativeToolTip": "School\\wwwroot\\js\\shared_script.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -591,11 +861,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 43,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\appsettings.json",
+              "DocumentMoniker": "D:\\313\\School\\School\\appsettings.json",
               "RelativeDocumentMoniker": "School\\appsettings.json",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\appsettings.json",
+              "ToolTip": "D:\\313\\School\\School\\appsettings.json",
               "RelativeToolTip": "School\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -603,11 +873,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 69,
               "Title": "libman.json",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\libman.json",
+              "DocumentMoniker": "D:\\313\\School\\School\\libman.json",
               "RelativeDocumentMoniker": "School\\libman.json",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\libman.json",
+              "ToolTip": "D:\\313\\School\\School\\libman.json",
               "RelativeToolTip": "School\\libman.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -615,11 +885,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 42,
               "Title": "_LoginRegistrationPartial.cshtml",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
+              "DocumentMoniker": "D:\\313\\School\\School\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
               "RelativeDocumentMoniker": "School\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
+              "ToolTip": "D:\\313\\School\\School\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
               "RelativeToolTip": "School\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -627,19 +897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "School.Domain\\ViewModels\\LoginAndRegistration\\ErrorViewModel.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ErrorViewModel.cs",
-              "RelativeToolTip": "School.Domain\\ViewModels\\LoginAndRegistration\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T09:19:45.026Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 46,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\mahboy\\AppData\\Roaming\\Microsoft\\UserSecrets\\e1a53de0-47de-49d9-8694-fabc2493674f\\secrets.json",
               "ToolTip": "C:\\Users\\mahboy\\AppData\\Roaming\\Microsoft\\UserSecrets\\e1a53de0-47de-49d9-8694-fabc2493674f\\secrets.json",
@@ -649,23 +907,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ConfirmEmailViewModel.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
-              "RelativeDocumentMoniker": "School.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
-              "RelativeToolTip": "School.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T09:31:03.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 47,
               "Title": "_ConfirmEmailPartial.cshtml.g.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Shared\\_ConfirmEmailPartial.cshtml.g.cs",
+              "DocumentMoniker": "D:\\313\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Shared\\_ConfirmEmailPartial.cshtml.g.cs",
               "RelativeDocumentMoniker": "School\\obj\\Debug\\net5.0\\Razor\\Views\\Shared\\_ConfirmEmailPartial.cshtml.g.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Shared\\_ConfirmEmailPartial.cshtml.g.cs",
+              "ToolTip": "D:\\313\\School\\School\\obj\\Debug\\net5.0\\Razor\\Views\\Shared\\_ConfirmEmailPartial.cshtml.g.cs",
               "RelativeToolTip": "School\\obj\\Debug\\net5.0\\Razor\\Views\\Shared\\_ConfirmEmailPartial.cshtml.g.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAiwG4AAACKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -673,11 +919,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 49,
               "Title": "School.Domain.csproj",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\School.Domain.csproj",
               "RelativeDocumentMoniker": "School.Domain\\School.Domain.csproj",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\School.Domain.csproj",
+              "ToolTip": "D:\\313\\School\\School.Domain\\School.Domain.csproj",
               "RelativeToolTip": "School.Domain\\School.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -685,11 +931,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 50,
               "Title": "Status.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\Enum\\Status.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Enum\\Status.cs",
               "RelativeDocumentMoniker": "School.Domain\\Enum\\Status.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\Enum\\Status.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Enum\\Status.cs",
               "RelativeToolTip": "School.Domain\\Enum\\Status.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -697,11 +943,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 51,
               "Title": "login_and_registration.css",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\wwwroot\\css\\login_and_registration.css",
+              "DocumentMoniker": "D:\\313\\School\\School\\wwwroot\\css\\login_and_registration.css",
               "RelativeDocumentMoniker": "School\\wwwroot\\css\\login_and_registration.css",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\wwwroot\\css\\login_and_registration.css",
+              "ToolTip": "D:\\313\\School\\School\\wwwroot\\css\\login_and_registration.css",
               "RelativeToolTip": "School\\wwwroot\\css\\login_and_registration.css",
               "ViewState": "AgIAANgAAAAAAAAAAAAmwP4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -709,11 +955,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 48,
               "Title": "Role.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\Enum\\Role.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Enum\\Role.cs",
               "RelativeDocumentMoniker": "School.Domain\\Enum\\Role.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\Enum\\Role.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Enum\\Role.cs",
               "RelativeToolTip": "School.Domain\\Enum\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -721,11 +967,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 56,
               "Title": "UserValidator.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\Validators\\UserValidator.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Validators\\UserValidator.cs",
               "RelativeDocumentMoniker": "School.Domain\\Validators\\UserValidator.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\Validators\\UserValidator.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Validators\\UserValidator.cs",
               "RelativeToolTip": "School.Domain\\Validators\\UserValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -733,23 +979,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Products.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\Models\\Products.cs",
-              "RelativeDocumentMoniker": "School.Domain\\Models\\Products.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\Models\\Products.cs",
-              "RelativeToolTip": "School.Domain\\Models\\Products.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T09:30:16.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 54,
               "Title": "OrderValidator.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\Validators\\OrderValidator.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Validators\\OrderValidator.cs",
               "RelativeDocumentMoniker": "School.Domain\\Validators\\OrderValidator.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\Validators\\OrderValidator.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Validators\\OrderValidator.cs",
               "RelativeToolTip": "School.Domain\\Validators\\OrderValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -757,11 +991,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 59,
               "Title": "OrdersDb.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\ModelsDb\\OrdersDb.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\ModelsDb\\OrdersDb.cs",
               "RelativeDocumentMoniker": "School.Domain\\ModelsDb\\OrdersDb.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\ModelsDb\\OrdersDb.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\ModelsDb\\OrdersDb.cs",
               "RelativeToolTip": "School.Domain\\ModelsDb\\OrdersDb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwCUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -769,11 +1003,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 61,
               "Title": "ProductsDb.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\ModelsDb\\ProductsDb.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\ModelsDb\\ProductsDb.cs",
               "RelativeDocumentMoniker": "School.Domain\\ModelsDb\\ProductsDb.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\ModelsDb\\ProductsDb.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\ModelsDb\\ProductsDb.cs",
               "RelativeToolTip": "School.Domain\\ModelsDb\\ProductsDb.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAIBJwB8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -781,11 +1015,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 60,
               "Title": "RequestDb.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\ModelsDb\\RequestDb.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\ModelsDb\\RequestDb.cs",
               "RelativeDocumentMoniker": "School.Domain\\ModelsDb\\RequestDb.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\ModelsDb\\RequestDb.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\ModelsDb\\RequestDb.cs",
               "RelativeToolTip": "School.Domain\\ModelsDb\\RequestDb.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAIBJwCUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -793,11 +1027,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 52,
               "Title": "ProductsValidator.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\Validators\\ProductsValidator.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Validators\\ProductsValidator.cs",
               "RelativeDocumentMoniker": "School.Domain\\Validators\\ProductsValidator.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\Validators\\ProductsValidator.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Validators\\ProductsValidator.cs",
               "RelativeToolTip": "School.Domain\\Validators\\ProductsValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -805,11 +1039,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 53,
               "Title": "PictureProductsValidator.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\Validators\\PictureProductsValidator.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Validators\\PictureProductsValidator.cs",
               "RelativeDocumentMoniker": "School.Domain\\Validators\\PictureProductsValidator.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\Validators\\PictureProductsValidator.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Validators\\PictureProductsValidator.cs",
               "RelativeToolTip": "School.Domain\\Validators\\PictureProductsValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -817,11 +1051,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 55,
               "Title": "RequestValidator.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\Validators\\RequestValidator.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Validators\\RequestValidator.cs",
               "RelativeDocumentMoniker": "School.Domain\\Validators\\RequestValidator.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\Validators\\RequestValidator.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Validators\\RequestValidator.cs",
               "RelativeToolTip": "School.Domain\\Validators\\RequestValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -829,11 +1063,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 57,
               "Title": "Request.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\Models\\Request.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Models\\Request.cs",
               "RelativeDocumentMoniker": "School.Domain\\Models\\Request.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\Models\\Request.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Models\\Request.cs",
               "RelativeToolTip": "School.Domain\\Models\\Request.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -841,11 +1075,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 58,
               "Title": "Orders.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\Models\\Orders.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\Models\\Orders.cs",
               "RelativeDocumentMoniker": "School.Domain\\Models\\Orders.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\Models\\Orders.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\Models\\Orders.cs",
               "RelativeToolTip": "School.Domain\\Models\\Orders.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -853,11 +1087,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 62,
               "Title": "CategoryDb.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\ModelsDb\\CategoryDb.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\ModelsDb\\CategoryDb.cs",
               "RelativeDocumentMoniker": "School.Domain\\ModelsDb\\CategoryDb.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\ModelsDb\\CategoryDb.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\ModelsDb\\CategoryDb.cs",
               "RelativeToolTip": "School.Domain\\ModelsDb\\CategoryDb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -865,11 +1099,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 63,
               "Title": "UserDb.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\ModelsDb\\UserDb.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\ModelsDb\\UserDb.cs",
               "RelativeDocumentMoniker": "School.Domain\\ModelsDb\\UserDb.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\ModelsDb\\UserDb.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\ModelsDb\\UserDb.cs",
               "RelativeToolTip": "School.Domain\\ModelsDb\\UserDb.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAIBJwCwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -877,7 +1111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 64,
               "Title": "20241115105759_test.cs",
               "DocumentMoniker": "D:\\tizul\\School\\School.DAL\\Migrations\\20241115105759_test.cs",
               "RelativeDocumentMoniker": "..\\..\\tizul\\School\\School.DAL\\Migrations\\20241115105759_test.cs",
@@ -888,11 +1122,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 65,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.DAL\\ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.DAL\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "School.DAL\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.DAL\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\313\\School\\School.DAL\\ApplicationDbContext.cs",
               "RelativeToolTip": "School.DAL\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwB4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -900,11 +1134,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 66,
               "Title": "PictureProductDb.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.Domain\\ModelsDb\\PictureProductDb.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.Domain\\ModelsDb\\PictureProductDb.cs",
               "RelativeDocumentMoniker": "School.Domain\\ModelsDb\\PictureProductDb.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.Domain\\ModelsDb\\PictureProductDb.cs",
+              "ToolTip": "D:\\313\\School\\School.Domain\\ModelsDb\\PictureProductDb.cs",
               "RelativeToolTip": "School.Domain\\ModelsDb\\PictureProductDb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -912,11 +1146,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 67,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School.DAL\\ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\313\\School\\School.DAL\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "School.DAL\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School.DAL\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\313\\School\\School.DAL\\ApplicationDbContext.cs",
               "RelativeToolTip": "School.DAL\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -924,11 +1158,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 68,
               "Title": "School.csproj",
-              "DocumentMoniker": "D:\\ETIL MONSTR\\School\\School\\School.csproj",
+              "DocumentMoniker": "D:\\313\\School\\School\\School.csproj",
               "RelativeDocumentMoniker": "School\\School.csproj",
-              "ToolTip": "D:\\ETIL MONSTR\\School\\School\\School.csproj",
+              "ToolTip": "D:\\313\\School\\School\\School.csproj",
               "RelativeToolTip": "School\\School.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

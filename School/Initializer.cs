@@ -21,7 +21,10 @@ namespace School
             services.AddScoped<IBaseStorage<UserDb>, UserStorage>();
             services.AddScoped<IBaseStorage<CategoryDb>, CategoryStorage>();
             services.AddScoped<IBaseStorage<ProductsDb>, ProductsStorage>();
-           
+            services.AddScoped<IBaseStorage<PictureProductDb>, PictureProductStorage>();
+
+
+
         }
 
         public static void InitializeServices(this IServiceCollection services)

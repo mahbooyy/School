@@ -1,0 +1,56 @@
+﻿@model TravelAgency.Domain.ViewModels.Tours.TourPageViewModel
+@using TravelAgency.Domain.Helpers
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Туры";
+}
+
+<div class="tour">
+    <div class="tour-header">
+        <h1>@Model.NameHotel</h1>
+        <p class="tour-city">@Model.City</p>
+    </div>
+
+    <div class="tour-details">
+        <div class="tour-images">
+            <!-- Основное изображение -->
+            <img id="main-image" src="@Model.PathImg" alt="@Model.NameHotel" class="main-image">
+
+            <!-- Миниатюры -->
+            <div class="thumbnail-container">
+                <img src="@Model.PathImg" alt="Thumbnail" class="thumbnail" onclick="changeImage(this)">
+
+                @foreach (var picture in Model.PictureTours)
+                {
+                    <img src="@picture.PathImg" alt="Thumbnail" class="thumbnail" onclick="changeImage(this)">
+                }
+            </div>
+
+            <script>
+                function changeImage(thumbnail) {
+                    const mainImage = document.getElementById("main-image");
+                    mainImage.src = thumbnail.src;
+                }
+            </script>
+        </div>
+
+        <div class="tour-info">
+            <h1>@Model.NameHotel</h1>
+            <p><strong>Город:</strong> @Model.City</p>
+            <p class="description"><strong>Описание:</strong> @Model.Description</p>
+
+            <p>
+                <strong>3 звезды:</strong>
+                @for (int i = 0; i < Model.Stars; i++)
+                {
+                    <img src="/images/star.jpg" alt="Star" class="star">
+                }
+            </p>
+
+            <p><strong>Питание:</strong> @Model.Nutrition.GetDescription()</p>
+            <p><strong>Цена за взрослого:</strong> @Model.PriceAdult $</p>
+            <p><strong>Цена за ребенка:</strong> @Model.PriceChild $</p>
+        </div>
+    </div>
+</div>
+</div>
